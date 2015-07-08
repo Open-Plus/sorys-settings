@@ -1,0 +1,95 @@
+#!/bin/bash
+# Crea paquetes de ipks con el nombre del directorio dado
+# by iqas linux-box - gplv2
+
+PLUGINNAME="enigma2-plugin-settings-sorys."
+SECTION="settings"
+ARCHITECTURE="all"
+MAINTAINER="linux-box"
+DESCRIPTION="Sorys Settings"
+SOURCE="http://www.linux-box.es"
+HOMEPAGE="http://www.linux-box.es"
+
+VERSION=$(date +%Y%m%d)
+## Main code
+# Comprueba si existe el directorio ipk
+if [ ! -d "ipk" ]; then
+ mkdir ./ipk
+fi
+
+DIR=$1
+# Comprueba si existe licencia
+if [ ! -f "${DIR}/LICENSE" ]; then
+ echo -e "\e[00;31mWARNING: No LICENSE found in ${DIR}/LICENSE\e[00m - Aplicating GPLv2+"
+ LICENSE="GPLv2+"
+else
+ LICENSE=$(cat /${DIR}/LICENSE)
+fi
+
+#Crea los directorios temporales
+mkdir .tmp_ipk
+mkdir .tmp_ipk/CONTROL
+echo "2.0" > .tmp_ipk/CONTROL/debian-binary
+
+# Crea conffiles con los ficheros de configuración
+cd ${DIR}
+if [ -d "etc" ]; then
+	find ./etc -type f -not -name 't_*'  | sed 's/^.//' > ../.tmp_ipk/CONTROL/conffiles
+fi
+cd ..
+
+PKG=./ipk/${PLUGINNAME}${DIR}_${VERSION}_all.ipk
+
+# Genera el fichero de control
+cat > .tmp_ipk/CONTROL/control << EOF
+Package: ${PLUGINNAME}${DIR}
+Version: ${VERSION}
+Section: ${SECTION}
+Priority: optional
+Architecture: ${ARCH}
+Maintainer: ${MAINTAINER}
+Description: ${DESCRIPTION} - ${DIR}
+Source: ${SOURCE}
+Homepage: ${HOMEPAGE}
+EOF
+
+# Genera fichero de postinstalación para dar permisos a los ejecutables
+cat > .tmp_ipk/CONTROL/postinst << EOF
+#!/bin/sh
+echo \"Settings installed\"
+EOF
+
+# Permisos de ejecucioón al script
+chmod +x .tmp_ipk/CONTROL/postinst
+
+# Copiamos todo al fichero temporal
+if [ -f ${DIR}"/bouquets.tv" ]; then
+	echo "Detected settings package"
+	mkdir -p .tmp_ipk/etc/enigma2
+	cp -rf ${DIR}/* .tmp_ipk/etc/enigma2/
+else
+	cp -rf ${DIR}/* .tmp_ipk/
+fi
+
+mkdir .tmp_out
+tar -C .tmp_ipk -czf ./.tmp_out/data.tar.gz . --exclude=CONTROL
+tar -C .tmp_ipk/CONTROL -czf ./.tmp_out/control.tar.gz .
+
+echo "2.0" > ./.tmp_out/debian-binary
+
+# borra el fichero anterior si existe
+if [ -f "./ipk/${PKG}" ]; then
+ rm -f ./ipk/${PKG}
+fi
+
+ar -r ${PKG} ./.tmp_out/debian-binary ./.tmp_out/data.tar.gz ./.tmp_out/control.tar.gz 
+
+rm -rf ./.tmp_ipk
+rm -rf ./.tmp_out
+
+echo -e "\e[01;34mOK: The file is ipk/${PLUGINNAME}${DIR}_${VERSION}_all.ipk\e[00m"
+
+exit 0
+
+
+
