@@ -4,7 +4,7 @@
 
 PLUGINNAME="enigma2-plugin-settings-sorys."
 SECTION="settings"
-ARCHITECTURE="all"
+ARCH="all"
 MAINTAINER="linux-box"
 DESCRIPTION="Sorys Settings"
 SOURCE="http://www.linux-box.es"
@@ -38,7 +38,7 @@ if [ -d "etc" ]; then
 fi
 cd ..
 
-PKG=./ipk/${PLUGINNAME}${DIR}_${VERSION}_all.ipk
+PKG=./ipk/${PLUGINNAME}${DIR}_${VERSION}_${ARCH}.ipk
 
 # Genera el fichero de control
 cat > .tmp_ipk/CONTROL/control << EOF
@@ -56,7 +56,7 @@ EOF
 # Genera fichero de postinstalación para dar permisos a los ejecutables
 cat > .tmp_ipk/CONTROL/postinst << EOF
 #!/bin/sh
-echo \"Settings installed\"
+echo \"Package installed\"
 EOF
 
 # Permisos de ejecucioón al script
@@ -87,7 +87,7 @@ ar -r ${PKG} ./.tmp_out/debian-binary ./.tmp_out/data.tar.gz ./.tmp_out/control.
 rm -rf ./.tmp_ipk
 rm -rf ./.tmp_out
 
-echo -e "\e[01;34mOK: The file is ipk/${PLUGINNAME}${DIR}_${VERSION}_all.ipk\e[00m"
+echo -e "\e[01;34mOK: The file is ipk/${PLUGINNAME}${DIR}_${VERSION}_${ARCH}.ipk\e[00m"
 
 exit 0
 
