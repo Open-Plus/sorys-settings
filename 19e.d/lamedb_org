@@ -156,9 +156,6 @@ eeee0000:9c40:22d4
 00c00000:0425:0001
 	s 10891000:22000000:0:2:192:2:0:1:2:0:2
 /
-00c00000:0426:0001
-	s 10906000:22000000:1:2:192:2:0:1:2:0:2
-/
 00c00000:0428:0001
 	s 10935000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -375,8 +372,8 @@ p:Canal+ (Astra),c:0000aa,c:01008c,c:0300aa
 
 p:,c:0000a9,c:010086,c:0300a9
 7863:00c00000:041a:0001:25:0
-La 1 HD
-p:Movistar+ (Astra),c:0000ab,c:010092,c:0300ab
+
+p:,c:0000ab,c:010092,c:0300ab
 749d:00c00000:041c:0001:1:39
 LTC - La Tienda en Casa
 p:Canal+ (Astra),c:0000a3,c:01005c,c:0300a3
@@ -657,10 +654,10 @@ p:Canal+ (Astra),c:0000ab,c:01007c,c:0300ab
 CANAL+ XTRA
 p:Canal+ (Astra),c:0000a4,c:010060,c:02002c,c:0300a4
 76c0:00c00000:040e:0001:1:1
-Canal+ Estrenos
+Canal+ 1
 p:Canal+ (Astra),c:0000a0,c:010050,c:020020,c:0300a0
 76ca:00c00000:040e:0001:1:2
-Canal+ Series Xtra
+Canal+ 2
 p:Canal+ (Astra),c:0000a8,c:010070,c:020038,c:0300a8
 76c8:00c00000:040e:0001:1:23
 Comedy Central
@@ -936,7 +933,7 @@ p:HD +,c:0013ff,c:011400,c:0313ff
 .2.
 p:HD +,c:0014ff,c:011500,c:0314ff
 74cc:00c00000:03f8:0001:25:1
-Canal+ Estrenos HD
+Canal+1 HD
 p:Canal+ (Astra),c:0000a4,c:010060,c:0300a4
 74cf:00c00000:03f8:0001:25:5
 Canal+ Xtra HD
@@ -951,7 +948,7 @@ p:Canal+ (Astra),c:0000a2,c:01005c,c:0300a2
 Canal+ Deportes 2 HD
 p:Canal+ (Astra),c:0000a3,c:010064,c:0300a3
 74d5:00c00000:03f8:0001:25:150
-CANAL+ESTRENOSHD
+CANAL+1 HD
 p:Canal+ (Astra),c:0000a4,c:010060,c:0300a4
 74d4:00c00000:03f8:0001:25:153
 C+ XTRA HD
@@ -2031,7 +2028,7 @@ p:,c:000096,c:010097,c:030096
 Via Stella
 p:CanalSat,c:0000ab,c:01007c,c:020041,c:0300ab
 78bb:00c00000:03ec:0001:25:2
-Canal+ Series Xtra HD
+CANAL+ 2 HD
 p:Canal+ (Astra),c:0000a2,c:010058,c:0300a2
 78b8:00c00000:03ec:0001:25:26
 Cosmopolitan HD
@@ -2043,7 +2040,7 @@ p:Canal+ (Astra),c:0000a1,c:010054,c:0300a1
 Canal+ Golf HD
 p:Canal+ (Astra),c:0000a3,c:01005c,c:0300a3
 78b6:00c00000:03ec:0001:25:151
-CANAL+ SeriesXtra HD
+CANAL+2 HD
 p:Canal+ (Astra),c:0000a2,c:010058,c:0300a2
 78bd:00c00000:03ec:0001:25:160
 COSMO HD
@@ -2693,38 +2690,5 @@ p:RTVE
 9c43:eeee0000:9c40:22d4:25:0
 tdp HD
 p:RTVE
-7534:00c00000:0426:0001:25:0
-ANTENA 3 HD
-p:Movistar+ (Astra),C:0000
-7535:00c00000:0426:0001:25:0
-CUATRO HD
-p:Movistar+ (Astra),C:0000
-7536:00c00000:0426:0001:25:0
-TELECINCO HD
-p:Movistar+ (Astra)
-7537:00c00000:0426:0001:25:0
-LASEXTA HD
-p:Movistar (Astra)
-772e:00c00000:0416:0001:1:815
-NOSNSTOPEOPLE
-p:Movistar+ (Astra),c:0000a7,c:01006c,c:0300a7,C:1810,C:0100
-788c:00c00000:0414:0001:25:0
-CANAL+ HD
-p:Movistar+ (Astra),C:0000
-7531:00c00000:0426:0001:25:0
-MOVISTAR F1 HD
-p:Movistar+ (Astra),C:0000
-7532:00c00000:0426:0001:25:0
-MOVISTAR MOTOGP HD
-p:Movistar (Astra),C:0000
-7478:00c00000:03f0:0001:1:0
-CANAL+
-p:Movistar+ (Astra),c:0000a8,c:010080,c:020038,c:0300a8,C:1810,C:0100
-74a4:00c00000:041c:0001:1:0
-MOVISTAR F1
-p:Movistar+ (Astra)
-7739:00c00000:0416:0001:1:0
-MOVISTAR MOTOGP
-p:Movistar+ (Astra)
 end
-Edited with dreamboxEDIT 6.0.1.2 on 10jul2015 09:35:01
+Edited with dreamboxEDIT 6.0.1.2 on 08jul2015 18:06:25
