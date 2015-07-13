@@ -2,7 +2,7 @@
 # Crea paquetes de ipks con el nombre del directorio dado
 # by iqas linux-box - gplv2
 
-PLUGINNAME="enigma2-plugin-settings-sorys."
+PLUGINNAME="enigma2-plugin"
 SECTION="settings"
 ARCH="all"
 MAINTAINER="linux-box"
@@ -11,6 +11,24 @@ SOURCE="http://www.linux-box.es"
 HOMEPAGE="http://www.linux-box.es"
 
 VERSION=$(date +%Y%m%d)
+if [[ -n $2 ]]; then
+	_SECTION=${SECTION}
+	if [[ $2 == *-* ]]; then
+		SECTION=$2
+	else
+		SECTION=${2}-
+	fi
+else 
+	SECTION=${SECTION}-
+	_SECTION=${SECTION}
+fi
+
+if [[ -n $3 ]]; then
+        DESCRIPTION=$3
+fi
+
+PLUGINNAME=${PLUGINNAME}-${SECTION}
+        
 ## Main code
 # Comprueba si existe el directorio ipk
 if [ ! -d "ipk" ]; then
@@ -44,7 +62,7 @@ PKG=./ipk/${PLUGINNAME}${DIR}_${VERSION}_${ARCH}.ipk
 cat > .tmp_ipk/CONTROL/control << EOF
 Package: ${PLUGINNAME}${DIR}
 Version: ${VERSION}
-Section: ${SECTION}
+Section: ${_SECTION}
 Priority: optional
 Architecture: ${ARCH}
 Maintainer: ${MAINTAINER}
