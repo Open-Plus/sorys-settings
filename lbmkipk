@@ -81,7 +81,21 @@ EOF
 chmod +x .tmp_ipk/CONTROL/postinst
 
 # Copiamos todo al fichero temporal
-if [ -f ${DIR}"/bouquets.tv" ]; then
+if [ -f ${DIR}"/usr/share/enigma2/spinner/wait1.png" ]; then
+       echo "Detected spinner package"
+	cat > .tmp_ipk/CONTROL/preinst << EOF
+#!/bin/sh
+echo \"Deleting spinners in flash\"
+rm -f /usr/share/enigma2/spinner/*
+echo \"Installing new spinners\" 
+EOF
+                       
+elif [ -f ${DIR}"/mhw2equiv.conf" ]; then
+        echo "Detected equiv package"
+        mkdir -p .tmp_ipk/etc
+        cp -f ${DIR}/mhw2equiv.conf .tmp_ipk/etc/
+
+elif [ -f ${DIR}"/bouquets.tv" ]; then
 	echo "Detected settings package"
 	mkdir -p .tmp_ipk/etc/enigma2
 	cp -rf ${DIR}/* .tmp_ipk/etc/enigma2/
