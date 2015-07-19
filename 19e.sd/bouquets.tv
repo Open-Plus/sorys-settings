@@ -1,6 +1,6 @@
 #NAME Bouquets (TV)
-#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.canal___astra_.tv
-#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.canal__hd.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.movistar___astra_.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.movistar__hd.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.canalsat.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.sky_alemania.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.canal_digitaal.tv

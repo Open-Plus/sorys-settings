@@ -202,7 +202,7 @@ Canal Iberalia
 p:Harmonic,c:001101,c:011102,c:031101
 0052:0ce40000:0003:0031:1:0
 MTV Rocks
-p:Canal+ (Hispasat),c:0000ac,c:010080,c:0300ac
+p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
 0708:0ce40000:0003:0031:1:0
 Canal+ Liga
 p:Canal+ (Hispasat),c:001b58,c:011b59,c:031b58
@@ -211,106 +211,106 @@ BBC World News
 p:Canal+ (Hispasat),c:0000a2,c:010058,c:0300a2
 0007:0ce40000:0007:0031:1:159
 Canal+ Yomvi
-p:DIGITAL+,c:0000a3,c:0100fe,c:0300a3
+p:Movistar+ (Hispasat),c:0000a3,c:0100fe,c:0300a3
 000d:0ce40000:0007:0031:1:149
 Antena 3
-p:Canal+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
+p:Movistar+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
 003e:0ce40000:0007:0031:1:151
 Real Madrid TV
-p:Canal+ (Hispasat),c:0000ad,c:010084,c:0300ad
+p:Movistar+ (Hispasat),c:0000ad,c:010084,c:0300ad
 004b:0ce40000:0007:0031:1:153
 Nick Junior
-p:Canal+ (Hispasat),c:0000a9,c:010074,c:0300a9
+p:Movistar+ (Hispasat),c:0000a9,c:010074,c:0300a9
 004c:0ce40000:0007:0031:1:154
 Canal Panda
-p:Canal+ (Hispasat),c:0000ab,c:01007c,c:0300ab
+p:Movistar+ (Hispasat),c:0000ab,c:01007c,c:0300ab
 0060:0ce40000:0007:0031:1:157
 Antena Neox
-p:Canal+ (Hispasat),c:0000a8,c:010070,c:0300a8
+p:Movistar+ (Hispasat),c:0000a8,c:010070,c:0300a8
 0078:0ce40000:0007:0031:1:158
 C+ TAQUILLA
 p:DIGITAL+,c:0000ae,c:010190,c:0300ae
 005d:0ce40000:0007:0031:1:0
 DiscoveryMax
-p:Canal+ (Hispasat),c:0000a7,c:01006c,c:020035,c:0300a7
+p:Movistar+ (Hispasat),c:0000a7,c:01006c,c:020035,c:0300a7
 005e:0ce40000:0007:0031:1:0
 Paramount Channel 
-p:Canal+ (Hispasat)
+p:Movistar+ (Hispasat)
 0036:0ce40000:0007:0031:1:0
 Canal+ Deporte 2
-p:PRISA TV
+p:Movistar+ (Hispasat)
 0001:0ce40000:0002:0031:1:161
-Canal+ 1
-p:Canal+ (Hispasat),c:0000a0,c:010050,c:020020,c:0300a0
+Canal+ Estrenos
+p:Movistar+ (Hispasat),c:0000a0,c:010050,c:020020,c:0300a0
 0002:0ce40000:0002:0031:1:162
-Canal+ 2
-p:Canal+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
+Canal+ Series Xtra
+p:Movistar+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
 0017:0ce40000:0002:0031:1:163
 Comedy Central
-p:Canal+ (Hispasat),c:0000ab,c:01007c,c:020041,c:0300ab
+p:Movistar+ (Hispasat),c:0000ab,c:01007c,c:020041,c:0300ab
 0022:0ce40000:0002:0031:1:164
 Viajar
-p:Canal+ (Hispasat),c:0000a2,c:010058,c:0300a2
+p:Movistar+ (Hispasat),c:0000a2,c:010058,c:0300a2
 0025:0ce40000:0002:0031:1:165
 Canal Cocina
-p:Canal+ (Hispasat),c:0000a9,c:010074,c:0300a9
+p:Movistar+ (Hispasat),c:0000a9,c:010074,c:0300a9
 002d:0ce40000:0002:0031:1:166
 TCM 
-p:Canal+ (Hispasat),c:0000a7,c:01006c,c:020035,c:0300a7
+p:Movistar+ (Hispasat),c:0000a7,c:01006c,c:020035,c:0300a7
 0038:0ce40000:0002:0031:1:167
 Sportmania
 p:Canal+ (Hispasat),c:0000a4,c:010060,c:0300a4
 003c:0ce40000:0002:0031:1:168
 Teledeporte
-p:Canal+ (Hispasat),c:0000aa,c:010078,c:0300aa
+p:Movistar+ (Hispasat),c:0000aa,c:010078,c:0300aa
 0046:0ce40000:0002:0031:1:169
 Disney Channel
-p:Canal+ (Hispasat),c:0000a3,c:01005c,c:020029,c:0300a3
+p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:020029,c:0300a3
 0050:0ce40000:0002:0031:1:170
 40 TV
-p:Canal+ (Hispasat),c:0000a5,c:010064,c:0300a5
+p:Movistar+ (Hispasat),c:0000a5,c:010064,c:0300a5
 0057:0ce40000:0002:0031:1:0
 C+ RADIOS
-p:DIGITAL+,c:0000ad,c:010190,c:0300ad
-0003:0ce40000:0004:0031:1:172
-Canal+ ...30
-p:Canal+ (Hispasat),c:0000ae,c:010088,c:02004a,c:0300ae
+p:Movistar+ (Hispasat),c:0000ad,c:010190,c:0300ad
 0015:0ce40000:0004:0031:1:173
 Fox
-p:Canal+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
+p:Movistar+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
 0016:0ce40000:0004:0031:1:174
 AXN
-p:Canal+ (Hispasat),c:0000ab,c:01007c,c:020041,c:0300ab
+p:Movistar+ (Hispasat),c:0000ab,c:01007c,c:020041,c:0300ab
 001b:0ce40000:0004:0031:1:175
 Fox Life
-p:Canal+ (Hispasat),c:0000a0,c:010050,c:0300a0
+p:Movistar+ (Hispasat),c:0000a0,c:010050,c:0300a0
 001c:0ce40000:0004:0031:1:176
 AXN White
-p:Canal+ (Hispasat),c:0000a7,c:01006c,c:020035,c:0300a7
+p:Movistar+ (Hispasat),c:0000a7,c:01006c,c:020035,c:0300a7
 0029:0ce40000:0004:0031:1:177
 C+ ACCIÓN
-p:Canal+ (Hispasat),c:0000a2,c:010058,c:020026,c:0300a2
+p:Movistar+ (Hispasat),c:0000a2,c:010058,c:020026,c:0300a2
 002a:0ce40000:0004:0031:1:178
 C+ COMEDIA
-p:Canal+ (Hispasat),c:0000a3,c:01005c,c:020029,c:0300a3
+p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:020029,c:0300a3
 002b:0ce40000:0004:0031:1:179
 C+ DCINE
-p:Canal+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
+p:Movistar+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
 0040:0ce40000:0004:0031:1:180
 Garage TV
-p:Canal+ (Hispasat),c:0000a4,c:010060,c:0300a4
+p:Movistar+ (Hispasat),c:0000a4,c:010060,c:0300a4
 0047:0ce40000:0004:0031:1:181
 Disney Junior
-p:Canal+ (Hispasat),c:0000a5,c:010064,c:02002f,c:0300a5
+p:Movistar+ (Hispasat),c:0000a5,c:010064,c:02002f,c:0300a5
 005f:0ce40000:0004:0031:1:182
-Antena Nova
-p:Canal+ (Hispasat),c:0000a1,c:010054,c:0300a1
+Nova
+p:Movistar+ (Hispasat),c:0000a1,c:010054,c:0300a1
+0bbf:0ce40000:0004:0031:1:0
+CANAL+
+p:Movistar+ (Hispasat)
 0034:0ce40000:0006:0031:1:184
-Canal+ Liga 2
-p:Canal+ (Hispasat),c:000ffa,c:010ffb,c:030ffa
+Canal+ Liga Multi
+p:Movistar+ (Hispasat),c:000ffa,c:010ffb,c:030ffa
 0043:0ce40000:0006:0031:1:186
 Canal+ Toros
-p:Canal+ (Hispasat),c:0000ac,c:010080,c:0300ac
+p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
 007d:0ce40000:0006:0031:1:187
 Taquilla 5
 p:Canal+ (Hispasat),c:0000a0,c:010050,c:020020,c:0300a0
@@ -321,7 +321,7 @@ p:Canal+ (Hispasat),c:0000ab,c:01007c,c:020041,c:0300ab
 Taquilla 7
 p:Canal+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
 0080:0ce40000:0006:0031:1:190
-Taquilla 8
+Taquilla 4
 p:Canal+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
 0083:0ce40000:0006:0031:1:191
 Taquilla X
@@ -346,7 +346,7 @@ Multi-X
 p:Canal+ (Hispasat),c:0000b0,c:010090,c:0300b0
 00be:0ce40000:0006:0031:1:205
 Multideporte 1
-p:Canal+ (Hispasat),c:000fdc,c:010fdd,c:031fff
+p:Movistar+ (Hispasat),c:000fdc,c:010fdd,c:031fff
 00bf:0ce40000:0006:0031:1:206
 Multideporte 2
 p:Canal+ (Hispasat),c:0000a6,c:010068,c:0300a6
@@ -388,25 +388,25 @@ EFE TV
 p:,c:000065,c:01006f,c:030065
 0027:0ce40000:0005:0031:1:300
 LTC - La Tienda en Casa
-p:Canal+ (Hispasat),c:0000a3,c:01005c,c:0300a3
+p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:0300a3
 003f:0ce40000:0005:0031:1:301
 Barça TV
-p:Canal+ (Hispasat),c:0000a7,c:01006c,c:0300a7
+p:Movistar+ (Hispasat),c:0000a7,c:01006c,c:0300a7
 004d:0ce40000:0005:0031:1:303
 Baby TV
-p:Canal+ (Hispasat),c:0000a2,c:010058,c:0300a2
+p:Movistar+ (Hispasat),c:0000a2,c:010058,c:0300a2
 004e:0ce40000:0005:0031:1:304
 Boing 
-p:Canal+ (Hispasat),c:0000a4,c:010060,c:02002c,c:0300a4
+p:Movistar+ (Hispasat),c:0000a4,c:010060,c:02002c,c:0300a4
 005a:0ce40000:0005:0031:1:305
 Divinity
-p:Canal+ (Hispasat),c:0000a0,c:010050,c:020020,c:0300a0
+p:Movistar+ (Hispasat),c:0000a0,c:010050,c:020020,c:0300a0
 005b:0ce40000:0005:0031:1:306
 Energy
-p:Canal+ (Hispasat),c:0000a5,c:010064,c:02002f,c:0300a5
+p:Movistar+ (Hispasat),c:0000a5,c:010064,c:02002f,c:0300a5
 001d:0ce40000:0005:0031:1:307
 MTV Spain
-p:Canal+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
+p:Movistar+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
 0069:0ce40000:0005:0031:1:308
 Fox News
 p:Canal+ (Hispasat),c:0000a1,c:010054,c:0300a1
@@ -416,18 +416,21 @@ p:Canal+ (Hispasat),c:0000a9,c:010074,c:0300a9
 0023:0ce40000:0005:0031:1:0
 Mexico Travel Channel
 p:Canal+ (Hispasat),c:0000a8,c:010070,c:0300a8
+0041:0ce40000:0005:0031:1:0
+MOVISTAR F1
+p:Movistar+ (Hispasat)
 0006:0ce40000:0008:0031:1:315
 C+ MultiCINE
-p:Canal+ (Hispasat),c:0000a5,c:010064,c:0300a5
+p:Movistar+ (Hispasat),c:0000a5,c:010064,c:0300a5
 0028:0ce40000:0008:0031:1:317
 Multicine
-p:Canal+ (Hispasat),c:0000a5,c:010064,c:0300a5
+p:Movistar+ (Hispasat),c:0000a5,c:010064,c:0300a5
 0032:0ce40000:0008:0031:1:318
 Multideporte
-p:Canal+ (Hispasat),c:0000ac,c:010080,c:0300ac
+p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
 004a:0ce40000:0008:0031:1:319
 Nickelodeon 
-p:Canal+ (Hispasat),c:001030,c:011031,c:031030
+p:Movistar+ (Hispasat),c:001030,c:011031,c:031030
 0079:0ce40000:0008:0031:1:322
 Taquilla 1
 p:Canal+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
@@ -437,17 +440,11 @@ p:Canal+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
 007b:0ce40000:0008:0031:1:324
 Taquilla 3
 p:Canal+ (Hispasat),c:0000ab,c:01007c,c:020041,c:0300ab
-007c:0ce40000:0008:0031:1:325
-Taquilla 4
-p:Canal+ (Hispasat),c:0000a7,c:01006c,c:020035,c:0300a7
 0087:0ce40000:0008:0031:1:326
 Taquilla XY
 p:Canal+ (Hispasat),c:0000a0,c:010050,c:0300a0
 008b:0ce40000:0008:0031:1:327
 Taquilla X
-p:Canal+ (Hispasat),c:0000ae,c:010088,c:0300ae
-008c:0ce40000:0008:0031:1:328
-TAQUILLA X
 p:Canal+ (Hispasat),c:0000ae,c:010088,c:0300ae
 00c1:0ce40000:0008:0031:1:331
 Multideporte 4
@@ -457,89 +454,92 @@ Multideporte 5
 p:Canal+ (Hispasat),c:0000a9,c:010074,c:0300a9
 0055:0ce40000:0008:0031:1:0
 Mezzo
-p:Canal+ (Hispasat),c:0000a3,c:01005c,c:0300a3
+p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:0300a3
 0004:0ce40000:0008:0031:1:0
 Canal+ Series
-p:Canal+ (Hispasat),c:0000a1,c:010054,c:020023,c:0300a1
+p:Movistar+ (Hispasat),c:0000a1,c:010054,c:020023,c:0300a1
 0008:0ce40000:0008:0031:1:0
 C+ MultiDEP
-p:Canal+ (Hispasat),c:0000ac,c:010052,c:0300ac
+p:Movistar+ (Hispasat),c:0000ac,c:010052,c:0300ac
+0c3d:0ce40000:0008:0031:1:0
+CANAL ORBE21
+p:CANAL +
 000a:0ce40000:0001:0031:1:334
 Canal+ Liga
-p:Canal+ (Hispasat),c:0000a0,c:010050,c:0300a0
+p:Movistar+ (Hispasat),c:0000a0,c:010050,c:0300a0
 0014:0ce40000:0001:0031:1:335
 Calle 13
-p:Canal+ (Hispasat),c:0000a3,c:01005c,c:020029,c:0300a3
+p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:020029,c:0300a3
 0019:0ce40000:0001:0031:1:336
 SyFy
-p:Canal+ (Hispasat),c:0000a2,c:010058,c:020026,c:0300a2
+p:Movistar+ (Hispasat),c:0000a2,c:010058,c:020026,c:0300a2
 001e:0ce40000:0001:0031:1:337
 Odisea
-p:Canal+ (Hispasat),c:0000a7,c:01006d,c:030304
+p:Movistar+ (Hispasat),c:0000a7,c:01006d,c:030304
 001f:0ce40000:0001:0031:1:338
 National Geographic
-p:Canal+ (Hispasat),c:0000aa,c:010078,c:0300aa
+p:Movistar+ (Hispasat),c:0000aa,c:010078,c:0300aa
 0026:0ce40000:0001:0031:1:339
 Decasa TV
-p:Canal+ (Hispasat),c:0000a4,c:010060,c:0300a4
+p:Movistar+ (Hispasat),c:0000a4,c:010060,c:0300a4
 0033:0ce40000:0001:0031:1:340
 CANAL+ LIGA
 p:Canal+ (Hispasat),c:0000a0,c:010050,c:0300a0
 0037:0ce40000:0001:0031:1:342
 Canal+ Golf
-p:Canal+ (Hispasat),c:0000a6,c:010068,c:0300a6
+p:Movistar+ (Hispasat),c:0000a6,c:010068,c:0300a6
 0039:0ce40000:0001:0031:1:343
 Canal+ Fútbol
-p:Canal+ (Hispasat),c:0000a1,c:010054,c:0300a1
+p:Movistar+ (Hispasat),c:0000a1,c:010054,c:0300a1
 0051:0ce40000:0001:0031:1:346
 Sol Música
-p:Canal+ (Hispasat),c:0000a9,c:010074,c:0300a9
+p:Movistar+ (Hispasat),c:0000a9,c:010074,c:0300a9
 0063:0ce40000:0001:0031:1:344
 Playboy TV
-p:Canal+ (Hispasat),c:0000ad,c:010084,c:0300ad
+p:Movistar+ (Hispasat),c:0000ad,c:010084,c:0300ad
 03e8:0ce40000:0001:0031:1:345
 C+ PORTADA
 p:Canal+ (Hispasat),c:0000ab,c:01007c,c:0300ab
 0035:0ce40000:0001:0031:1:0
 Canal+ Deportes
-p:Canal+ (Hispasat),c:0000ac,c:010080,c:0300ac
+p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
 000b:0ce40000:000c:0031:1:348
 La 1
-p:Canal+ (Hispasat),c:0000aa,c:010078,c:0300aa
+p:Movistar+ (Hispasat),c:0000aa,c:010078,c:0300aa
 000c:0ce40000:000c:0031:1:349
 La 2
-p:Canal+ (Hispasat),c:0000a7,c:01006c,c:0300a7
+p:Movistar+ (Hispasat),c:0000a7,c:01006c,c:0300a7
 000e:0ce40000:000c:0031:1:350
 Cuatro
-p:Canal+ (Hispasat),c:0000ad,c:010084,c:020047,c:0300ad
+p:Movistar+ (Hispasat),c:0000ad,c:010084,c:020047,c:0300ad
 000f:0ce40000:000c:0031:1:351
 Telecinco
-p:Canal+ (Hispasat),c:0000a5,c:010064,c:0300a5
+p:Movistar+ (Hispasat),c:0000a5,c:010064,c:0300a5
 0010:0ce40000:000c:0031:1:352
 La Sexta
-p:Canal+ (Hispasat),c:0000a2,c:010058,c:020026,c:0300a2
+p:Movistar+ (Hispasat),c:0000a2,c:010058,c:020026,c:0300a2
 0018:0ce40000:000c:0031:1:353
 TNT
-p:Canal+ (Hispasat),c:0000a9,c:010074,c:02003b,c:0300a9
+p:Movistar+ (Hispasat),c:0000a9,c:010074,c:02003b,c:0300a9
 0020:0ce40000:000c:0031:1:354
 NatGeo Wild
-p:Canal+ (Hispasat),c:0000a8,c:010070,c:0300a8
+p:Movistar+ (Hispasat),c:0000a8,c:010070,c:0300a8
 002e:0ce40000:000c:0031:1:355
 Canal Hollywood
-p:Canal+ (Hispasat),c:0000a6,c:010068,c:0300a6
+p:Movistar+ (Hispasat),c:0000a6,c:010068,c:0300a6
 004f:0ce40000:000c:0031:1:356
 Clan TVE
-p:Canal+ (Hispasat),c:0000a0,c:010050,c:0300a0
+p:Movistar+ (Hispasat),c:0000a0,c:010050,c:0300a0
 005c:0ce40000:000c:0031:1:357
 Factoria de Ficcion
-p:Canal+ (Hispasat),c:0000ab,c:01007c,c:0300ab
+p:Movistar+ (Hispasat),c:0000ab,c:01007c,c:0300ab
 00c8:0ce40000:000c:0031:1:358
 CANAL+ GUÍA
 p:DIGITAL+,c:0000a3,c:0300a3
 002c:0ce40000:000c:0031:1:0
 C+ XTRA
-p:Canal+ (Hispasat),c:0000a4,c:010060,c:02002c,c:0300a4
-0005:0ce40000:000c:0031:1:0
+p:Movistar+ (Hispasat),c:0000a4,c:010060,c:02002c,c:0300a4
+002c:0ce40000:000c:0031:1:0
 Canal+ Xtra
 p:Canal+ (Hispasat),c:0000a4,c:010060,c:02002c,c:0300a4
 03b2:0ce40000:002f:0036:25:365
@@ -589,19 +589,19 @@ Motorvision
 p:Nos,c:001f84,c:011f85,c:031f84
 001a:0ce40000:000a:0031:1:370
 Cosmopolitan TV
-p:Canal+ (Hispasat),c:0000aa,c:010078,c:0300aa
+p:Movistar+ (Hispasat),c:0000aa,c:010078,c:0300aa
 0024:0ce40000:000a:0031:1:372
 A&E
-p:Canal+ (Hispasat),c:0000a2,c:010058,c:0300a2
+p:Movistar+ (Hispasat),c:0000a2,c:010058,c:0300a2
 0030:0ce40000:000a:0031:1:374
 D Cine Español
-p:Canal+ (Hispasat),c:0000a0,c:010050,c:0300a0
+p:Movistar+ (Hispasat),c:0000a0,c:010050,c:0300a0
 0042:0ce40000:000a:0031:1:375
 Caza y Pesca
-p:Canal+ (Hispasat),c:0000a9,c:010074,c:0300a9
+p:Movistar+ (Hispasat),c:0000a9,c:010074,c:0300a9
 0048:0ce40000:000a:0031:1:376
 Disney XD
-p:Canal+ (Hispasat),c:0000a3,c:01005c,c:020029,c:0300a3
+p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:020029,c:0300a3
 0064:0ce40000:000a:0031:1:382
 Canal 24 Horas
 p:Canal+ (Hispasat),c:0000ad,c:010084,c:0300ad
@@ -609,17 +609,20 @@ p:Canal+ (Hispasat),c:0000ad,c:010084,c:0300ad
 TVI Internacional
 p:Canal+ (Hispasat),c:0000a4,c:010060,c:0300a4
 0021:0ce40000:000a:0031:1:0
-Canal de Historia
-p:Canal+ (Hispasat),c:0000ab,c:01007c,c:0300ab
+Historia
+p:Movistar+ (Hispasat),c:0000ab,c:01007c,c:0300ab
 0061:0ce40000:000a:0031:1:0
 Fashion TV
-p:Canal+ (Hispasat),c:0000a5,c:010064,c:0300a5
+p:Movistar+ (Hispasat),c:0000a5,c:010064,c:0300a5
 012c:0ce40000:000a:0031:1:0
 Canal Sur Andalucia TV
 p:Canal+ (Hispasat)
 003b:0ce40000:000a:0031:1:0
-C+1 MULTI
-p:CANAL+
+Non Stop People
+p:Movistar+ (Hispasat)
+0bf2:0ce40000:000a:0031:1:0
+Movistar MotoGP
+p:Movistar+ (Hispasat)
 032b:0ce40000:0024:0036:1:4
 RTP 1
 p:Nos,c:001410,c:011411,c:021412,c:031410
@@ -731,6 +734,9 @@ p:Meo,c:001261,c:011262,c:031261
 00d8:0ce40000:0066:0053:25:0
 TV Séries
 p:Meo,c:001279,c:01127a,c:031279
+00d9:0ce40000:0066:0053:25:0
+PFC - Campanha
+p:Meo,c:001281,c:031281
 012d:0ce40000:0067:0053:25:0
 TVI
 p:Meo,c:001401,c:011202,c:021404,c:031401
