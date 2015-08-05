@@ -1,8 +1,5 @@
 eDVB services /4/
 transponders
-011a0000:0823:0002
-	s 12663000:22000000:0:4:282:2:0
-/
 00c00000:041a:0001
 	s 10729000:22000000:1:2:192:2:0:1:2:0:2
 /
@@ -79,7 +76,7 @@ transponders
 	s 11973000:27500000:1:3:192:2:0
 /
 00c00000:0438:0001
-	s 12012000:29700000:1:2:192:2:0:1:2:0:2
+	s 12012000:29700000:1:4:192:2:0:1:2:0:2
 /
 00c00000:043c:0001
 	s 12090000:29700000:1:4:192:2:0:1:2:1:2
@@ -159,6 +156,12 @@ transponders
 00c00000:0426:0001
 	s 10906000:22000000:1:2:192:2:0:1:2:0:2
 /
+00c00000:0443:0001
+	s 12226000:27500000:0:3:192:2:0
+/
+00c00000:0457:0001
+	s 12603000:22000000:0:4:192:2:0
+/
 eeee0000:03e8:22d4
 	t 762000000:0:5:5:3:2:4:4:2:0
 /
@@ -188,9 +191,6 @@ eeee0000:9c40:22d4
 /
 end
 services
-d3d0:011a0000:0823:0002:1:116
-EuroNews
-p:Freesat,f:0040,c:000906,c:01090c,c:030906
 7851:00c00000:041a:0001:25:34
 Canal+ Comedia HD
 p:Movistar+ (Astra),c:0000a1,c:010056,c:0300a1
@@ -209,7 +209,7 @@ p:Movistar+ (Astra),c:0000a3,c:010062,c:0300a3
 7854:00c00000:041a:0001:25:168
 Taquilla 1 HD
 p:Movistar+ (Astra),c:0000a4,c:010068,c:0300a4
-785e:00c00000:041a:0001:25:130
+785e:00c00000:041a:0001:25:169
 Taquilla 2 HD
 p:Movistar+ (Astra),c:0000a7,c:01007a,c:0300a7
 7856:00c00000:041a:0001:25:156
@@ -281,15 +281,9 @@ p:Movistar+ (Astra),c:0000a8,c:010070,c:020038,c:0300a8
 768f:00c00000:041e:0001:1:162
 Taquilla 2
 p:Movistar+ (Astra),c:0000aa,c:010078,c:02003e,c:0300aa
-7690:00c00000:041e:0001:1:163
-Taquilla 3
-p:Movistar+ (Astra),c:0000ab,c:01007c,c:020041,c:0300ab
 7695:00c00000:041e:0001:1:174
 Taquilla XY
 p:Movistar+ (Astra),c:0000a0,c:010050,c:0300a0
-7693:00c00000:041e:0001:1:178
-TAQUILLA X
-p:Movistar+ (Astra),c:0000ad,c:010084,c:0300ad
 769b:00c00000:041e:0001:1:182
 Multideporte 4
 p:Movistar+ (Astra),c:0000a4,c:010060,c:0300a4
@@ -303,8 +297,11 @@ p:Movistar+ (Astra)
 Mezzo
 p:Movistar+ (Astra),c:0000a3,c:01005c,c:0300a3
 76a4:00c00000:041e:0001:1:133
-CANAL ORBE21
+Canal Orbe 21
 p:Movistar+ (Astra)
+76a5:00c00000:041e:0001:1:39
+Sundance Channel
+p:Movistar+ (Astra),c:0000ae,c:010088,c:0300ae
 7500:00c00000:0420:0001:25:33
 Canal+ Acción HD
 p:Movistar+ (Astra),c:0000a2,c:01005c,c:0300a2
@@ -476,9 +473,6 @@ p:Movistar+ (Astra),c:0000a9,c:010074,c:0300a9
 76c7:00c00000:040e:0001:1:37
 TCM Moderno
 p:Movistar+ (Astra),c:0000a7,c:01006c,c:020035,c:0300a7
-76c4:00c00000:040e:0001:1:56
-Sportmania
-p:Movistar+ (Astra),c:0000a4,c:010060,c:0300a4
 76cc:00c00000:040e:0001:1:63
 Teledeporte
 p:Movistar+ (Astra),c:0000aa,c:010078,c:0300aa
@@ -488,6 +482,9 @@ p:Movistar+ (Astra),c:0000a3,c:01005c,c:020029,c:0300a3
 76c5:00c00000:040e:0001:1:103
 40 TV
 p:Movistar+ (Astra),c:0000a5,c:010064,c:0300a5
+76cf:00c00000:040e:0001:1:19
+AMC
+p:Movistar+ (Astra)
 7a48:00c00000:0410:0001:1:142
 Telesur
 p:Telefonica Servicios Audiovisuales,c:000835,c:010836,c:030835
@@ -512,6 +509,9 @@ p:Telefonica Servicios Audiovisuales,c:000021,c:010020,c:030021
 7a49:00c00000:0410:0001:1:157
 TBN Enlace
 p:Movistar+ (Astra),c:001f42,c:011fa6,c:031f42
+7a46:00c00000:0410:0001:1:66
+Iberalia
+p:Movistar+ (Astra)
 756b:00c00000:0412:0001:1:52
 Canal+ Liga 2
 p:Movistar+ (Astra),c:0000a2,c:010058,c:0300a2
@@ -524,8 +524,8 @@ p:Movistar+ (Astra),c:0000a0,c:010050,c:020020,c:0300a0
 7566:00c00000:0412:0001:1:166
 Taquilla 6
 p:Movistar+ (Astra),c:0000ab,c:01007c,c:020041,c:0300ab
-7567:00c00000:0412:0001:1:167
-Taquilla 7
+7567:00c00000:0412:0001:1:163
+Taquilla 3
 p:Movistar+ (Astra),c:0000a8,c:010070,c:020038,c:0300a8
 756f:00c00000:0412:0001:1:164
 Taquilla 4
@@ -566,6 +566,12 @@ p:Movistar+ (Astra),c:000faa,c:010fab,c:030faa
 7576:00c00000:0412:0001:1:185
 Multideporte 7
 p:Movistar+ (Astra),c:000fbe,c:010fbf,c:030fbe
+7575:00c00000:0412:0001:1:182
+Multideporte.4
+p:Movistar+ (Astra),c:000fe6,c:010fe7,c:030fe6
+757a:00c00000:0412:0001:1:183
+Multideporte 5
+p:Movistar+ (Astra),c:000ff0,c:010ff1,c:030ff0
 7883:00c00000:0414:0001:25:15
 TNT HD
 p:Movistar+ (Astra),c:0000a1,c:010056,c:0300a1
@@ -797,7 +803,7 @@ p:CanalSat,c:000460,c:010020,c:030460
 2761:00c00000:0402:0001:1:0
 RMC Decouverte
 p:CanalSat,c:001005,c:011006,c:021019,c:031005
-2760:00c00000:0402:0001:1:0
+2760:00c00000:0402:0001:1:158
 SonLife Broadcasting Network
 p:SES ASTRA,c:00041b,c:01041c,c:03041b
 7604:00c00000:0408:0001:1:3
@@ -1241,6 +1247,18 @@ p:Sky Deutschland,c:0008ff,c:010900,c:020028,c:0308ff
 0381:00c00000:0021:0085:1:0
 Equi8
 p:BetaDigital,c:0002ff,c:010300,c:0302ff
+0033:00c00000:0021:0085:1:0
+TELE 5
+p:BetaDigital
+003f:00c00000:0021:0085:1:0
+DMAX
+p:BetaDigital
+002f:00c00000:0021:0085:1:0
+REGIO TV
+p:BetaDigital
+004c:00c00000:0021:0085:1:0
+QLAR
+p:BetaDigital
 2f8a:00c00000:0454:0001:1:719
 BFM TV
 p:CanalSat,c:00087b,c:01087c,c:020159,c:03087b
@@ -1331,6 +1349,15 @@ p:ProSiebenSat.1,c:000320,c:010321,c:020322,c:030320
 4e24:00c00000:043a:0001:1:0
 Kabel 1 Österreich
 p:ProSiebenSat.1,c:0000a6,c:0100a7,c:0200a9,c:0300a6
+4e26:00c00000:043a:0001:1:0
+SAT.1 CH
+p:ProSiebenSat.1
+4e21:00c00000:043a:0001:1:0
+ProSieben Schweiz
+p:ProSiebenSat.1
+4e23:00c00000:043a:0001:1:0
+Kabel 1 Schweiz
+p:ProSiebenSat.1
 1f45:00c00000:042e:0001:25:0
 Planète+ Thalassa HD
 p:CanalSat,c:0001fe,c:010209,c:02021d,c:0301fe
@@ -1394,6 +1421,9 @@ p:RTVE,c:000dc1,c:010dc2,c:020dc5,c:030dc1
 1132:00c00000:0404:0001:1:0
 Canal 24 Horas
 p:RTVE,c:000df1,c:010df2,c:020df7,c:030df1
+1146:00c00000:0404:0001:1:114
+CNN International Europe
+p:CNN,c:0000a5,c:010064,c:0300a5
 1072:00c00000:03ee:0001:25:0
 RAI HD
 p:Telespazio,c:000712,c:010713,c:030712
@@ -1625,6 +1655,15 @@ p:Movistar+ (Astra),c:0000a5,c:01006e,c:0300a5
 7537:00c00000:0426:0001:25:6
 La Sexta HD
 p:Movistar+ (Astra),c:0000a6,c:010074,c:0300a6
+7533:00c00000:0426:0001:25:19
+AMC HD
+p:Movistar+ (Astra),c:0000a2,c:01005d,c:02002a,c:0300a2,c:050001,C:1810
+79f4:00c00000:0443:0001:1:116
+EuroNews
+p:Globecast,f:0040,c:000980,c:010981,c:030980
+1c7a:00c00000:0457:0001:1:124
+Sky News International
+p:SES ASTRA,f:0040,c:00050a,c:0108f2,c:03050a
 019e:eeee0000:03e8:22d4:25:0
 La 1 HD.
 p:RTVE

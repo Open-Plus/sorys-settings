@@ -199,13 +199,10 @@ TVI Internacional
 p:TSA
 0009:0ce4aa8a:000f:0002:1:0
 Canal Iberalia
-p:Harmonic,c:001101,c:011102,c:031101
+p:Movistar+ (Hispasat),c:001101,c:011102,c:031101
 0052:0ce40000:0003:0031:1:0
 MTV Rocks
 p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
-0708:0ce40000:0003:0031:1:0
-Canal+ Liga
-p:Canal+ (Hispasat),c:001b58,c:011b59,c:031b58
 0067:0ce40000:0003:0031:1:0
 BBC World News
 p:Canal+ (Hispasat),c:0000a2,c:010058,c:0300a2
@@ -257,9 +254,6 @@ p:Movistar+ (Hispasat),c:0000a9,c:010074,c:0300a9
 002d:0ce40000:0002:0031:1:166
 TCM 
 p:Movistar+ (Hispasat),c:0000a7,c:01006c,c:020035,c:0300a7
-0038:0ce40000:0002:0031:1:167
-Sportmania
-p:Canal+ (Hispasat),c:0000a4,c:010060,c:0300a4
 003c:0ce40000:0002:0031:1:168
 Teledeporte
 p:Movistar+ (Hispasat),c:0000aa,c:010078,c:0300aa
@@ -272,6 +266,9 @@ p:Movistar+ (Hispasat),c:0000a5,c:010064,c:0300a5
 0057:0ce40000:0002:0031:1:0
 C+ RADIOS
 p:Movistar+ (Hispasat),c:0000ad,c:010190,c:0300ad
+0bcb:0ce40000:0002:0031:1:0
+AMC
+p:Movistar+ (Hispasat),c:0000a1,c:010054,c:020023,c:0300a1
 0015:0ce40000:0004:0031:1:173
 Fox
 p:Movistar+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
@@ -318,7 +315,7 @@ p:Canal+ (Hispasat),c:0000a0,c:010050,c:020020,c:0300a0
 Taquilla 6
 p:Canal+ (Hispasat),c:0000ab,c:01007c,c:020041,c:0300ab
 007f:0ce40000:0006:0031:1:189
-Taquilla 7
+Taquilla 3
 p:Canal+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
 0080:0ce40000:0006:0031:1:190
 Taquilla 4
@@ -359,6 +356,12 @@ p:Canal+ (Hispasat),c:000faa,c:010fab,c:030faa
 00c4:0ce40000:0006:0031:1:209
 Multideporte 7
 p:Canal+ (Hispasat),c:000fbe,c:010fbf,c:030fbe
+0094:0ce40000:0006:0031:1:0
+Multideporte 4
+p:Digital+,c:000fe6,c:010fe7,c:030fe6
+0095:0ce40000:0006:0031:1:0
+Multideporte 5
+p:DIGITAL+,c:000ff0,c:010ff1,c:030ff0
 1771:0ce40000:000d:0028:1:292
 Al Jazeera English
 p:,c:00003d,c:01003e,c:03003d
@@ -380,12 +383,12 @@ p:OVERON,c:001325,c:011326,c:031325
 0384:0ce40000:000d:0028:1:291
 Disney Channell
 p:Nos,c:0002bd,c:0102be,c:0302bd
-0565:0ce40000:000d:0028:1:0
-Hispan TV HD
-p:Overon,c:000835,c:010836,c:030835
 0001:0ce40000:000d:0028:1:0
 EFE TV
 p:,c:000065,c:01006f,c:030065
+0003:0ce40000:000d:0028:1:0
+Real Madrid TV
+p:Overon,c:000459,c:010463,c:030459
 0027:0ce40000:0005:0031:1:300
 LTC - La Tienda en Casa
 p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:0300a3
@@ -437,21 +440,12 @@ p:Canal+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
 007a:0ce40000:0008:0031:1:323
 Taquilla 2
 p:Canal+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
-007b:0ce40000:0008:0031:1:324
-Taquilla 3
-p:Canal+ (Hispasat),c:0000ab,c:01007c,c:020041,c:0300ab
 0087:0ce40000:0008:0031:1:326
 Taquilla XY
 p:Canal+ (Hispasat),c:0000a0,c:010050,c:0300a0
 008b:0ce40000:0008:0031:1:327
 Taquilla X
 p:Canal+ (Hispasat),c:0000ae,c:010088,c:0300ae
-00c1:0ce40000:0008:0031:1:331
-Multideporte 4
-p:Canal+ (Hispasat),c:0000a4,c:010060,c:0300a4
-00c2:0ce40000:0008:0031:1:332
-Multideporte 5
-p:Canal+ (Hispasat),c:0000a9,c:010074,c:0300a9
 0055:0ce40000:0008:0031:1:0
 Mezzo
 p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:0300a3
@@ -464,6 +458,9 @@ p:Movistar+ (Hispasat),c:0000ac,c:010052,c:0300ac
 0c3d:0ce40000:0008:0031:1:0
 CANAL ORBE21
 p:CANAL +
+0bdf:0ce40000:0008:0031:1:0
+Sundance Channel
+p:Movistar+ (Hispasat),c:0000ae,c:010088,c:0300ae
 000a:0ce40000:0001:0031:1:334
 Canal+ Liga
 p:Movistar+ (Hispasat),c:0000a0,c:010050,c:0300a0
@@ -537,11 +534,11 @@ p:Movistar+ (Hispasat),c:0000ab,c:01007c,c:0300ab
 CANAL+ GUÍA
 p:DIGITAL+,c:0000a3,c:0300a3
 002c:0ce40000:000c:0031:1:0
-C+ XTRA
+CANAL+ XTRA
 p:Movistar+ (Hispasat),c:0000a4,c:010060,c:02002c,c:0300a4
-002c:0ce40000:000c:0031:1:0
-Canal+ Xtra
-p:Canal+ (Hispasat),c:0000a4,c:010060,c:02002c,c:0300a4
+0005:0ce40000:000c:0031:1:0
+CANAL+ XTRA
+p:Movistar+ (Hispasat)
 03b2:0ce40000:002f:0036:25:365
 ETV HD
 p:Nos,c:001990,c:011991,c:031990

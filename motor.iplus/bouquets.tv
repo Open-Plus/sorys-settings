@@ -1,6 +1,6 @@
 #NAME Bouquets (TV)
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.___astra_19_2e___.tv
-#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.canal___astra_.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.movistar___astra_.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.canalsat.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.sky_alemania.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.canal_digitaal.tv
@@ -9,6 +9,7 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.tnt_sat.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.telesat.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.skylink.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.alemanes_free.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.___hotbird_13e__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.sky_italia.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.nc____polsat.tv
@@ -23,6 +24,8 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.meo.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.____abs_1__75e___.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.75_0_e___raduga_tv.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.____intelsat_10___7__68_5e___.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.68_5_e___viewsat.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.___nss_12__57_e___.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.57e___zuku.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.___yahsat_1a__52_5_e___.tv
