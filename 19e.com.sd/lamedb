@@ -156,12 +156,6 @@ transponders
 00c00000:0426:0001
 	s 10906000:22000000:1:2:192:2:0:1:2:0:2
 /
-00c00000:0443:0001
-	s 12226000:27500000:0:3:192:2:0
-/
-00c00000:0457:0001
-	s 12603000:22000000:0:4:192:2:0
-/
 eeee0000:03e8:22d4
 	t 762000000:0:5:5:3:2:4:4:2:0
 /
@@ -206,10 +200,10 @@ p:Movistar+ (Astra),c:0000a2,c:01005c,c:0300a2
 7853:00c00000:041a:0001:25:52
 Canal+ Liga Multi HD 
 p:Movistar+ (Astra),c:0000a3,c:010062,c:0300a3
-7854:00c00000:041a:0001:25:168
+7854:00c00000:041a:0001:25:167
 Taquilla 1 HD
 p:Movistar+ (Astra),c:0000a4,c:010068,c:0300a4
-785e:00c00000:041a:0001:25:169
+785e:00c00000:041a:0001:25:168
 Taquilla 2 HD
 p:Movistar+ (Astra),c:0000a7,c:01007a,c:0300a7
 7856:00c00000:041a:0001:25:156
@@ -230,6 +224,15 @@ p:Movistar+ (Astra),c:0000a5,c:01006e,c:0300a5
 7863:00c00000:041a:0001:25:1
 La 1 HD
 p:Movistar+ (Astra),c:0000ab,c:010092,c:0300ab
+785f:00c00000:041a:0001:25:47
+C+ Partidazo HD
+p:Movistar+ (Astra),c:0000a8,c:010080,c:0300a8
+7861:00c00000:041a:0001:25:180
+MultiFutbol 2 HD
+p:Movistar+ (Astra),c:0000aa,c:01008c,c:0300aa
+7864:00c00000:041a:0001:25:179
+MultiFutbol 1 HD
+p:Movistar+ (Astra),c:0000ac,c:010096,c:0300ac
 749d:00c00000:041c:0001:1:41
 LTC - La Tienda en Casa
 p:Movistar+ (Astra),c:0000a3,c:01005c,c:0300a3
@@ -284,11 +287,11 @@ p:Movistar+ (Astra),c:0000aa,c:010078,c:02003e,c:0300aa
 7695:00c00000:041e:0001:1:174
 Taquilla XY
 p:Movistar+ (Astra),c:0000a0,c:010050,c:0300a0
-769b:00c00000:041e:0001:1:182
-Multideporte 4
+769b:00c00000:041e:0001:1:185
+MultiFutbol 7
 p:Movistar+ (Astra),c:0000a4,c:010060,c:0300a4
-769c:00c00000:041e:0001:1:183
-Multideporte 5
+769c:00c00000:041e:0001:1:47
+C+ Partidazo
 p:Movistar+ (Astra),c:0000a9,c:010074,c:0300a9
 7696:00c00000:041e:0001:1:11
 C+ Series
@@ -302,6 +305,12 @@ p:Movistar+ (Astra)
 76a5:00c00000:041e:0001:1:39
 Sundance Channel
 p:Movistar+ (Astra),c:0000ae,c:010088,c:0300ae
+769d:00c00000:041e:0001:1:188
+C+ LIGA 2 C
+p:Movistar+ (Astra),c:0000a6,c:010069,c:0300a6
+769e:00c00000:041e:0001:1:189
+C+ LIGA 2 D
+p:Movistar+ (Astra),c:000fa0,c:010fa1,c:030fa0
 7500:00c00000:0420:0001:25:33
 Canal+ Acción HD
 p:Movistar+ (Astra),c:0000a2,c:01005c,c:0300a2
@@ -332,6 +341,15 @@ p:Movistar+ (Astra),c:0000a5,c:01006e,c:020030,c:0300a5
 750d:00c00000:0420:0001:25:171
 HOLLYWOODHD
 p:Movistar+ (Astra),c:0000a5,c:01006e,c:020030,c:0300a5
+7501:00c00000:0420:0001:25:169
+Taquilla 3 HD
+p:Movistar+ (Astra),c:0000a3,c:010062,c:0300a3
+750e:00c00000:0420:0001:25:181
+MultiFutbol 3 HD
+p:Movistar+ (Astra),c:0000a6,c:010074,c:0300a6
+750f:00c00000:0420:0001:25:48
+Canal+ Liga 2 HD
+p:Movistar+ (Astra),c:0000a7,c:010078,c:0300a7
 75b0:00c00000:0422:0001:1:160
 C+ TAQUILLA
 p:Movistar+ (Astra),c:0000a3,c:0100fe,c:031fff
@@ -513,7 +531,7 @@ p:Movistar+ (Astra),c:001f42,c:011fa6,c:031f42
 Iberalia
 p:Movistar+ (Astra)
 756b:00c00000:0412:0001:1:52
-Canal+ Liga 2
+Canal+ Liga Multi
 p:Movistar+ (Astra),c:0000a2,c:010058,c:0300a2
 7570:00c00000:0412:0001:1:66
 Canal+ Toros
@@ -554,24 +572,51 @@ p:Movistar+ (Astra),c:0000b0,c:010090,c:0300b0
 756c:00c00000:0412:0001:1:62
 Multideporte 1
 p:Movistar+ (Astra),c:000fdc,c:010fdd,c:031fff
-756d:00c00000:0412:0001:1:180
+756d:00c00000:0412:0001:1:190
 Multideporte 2
 p:Movistar+ (Astra),c:0000a6,c:010068,c:0300a6
-7573:00c00000:0412:0001:1:181
+7573:00c00000:0412:0001:1:191
 Multideporte 3
 p:Movistar+ (Astra),c:000fa0,c:010fa1,c:030fa0
-7574:00c00000:0412:0001:1:184
+7574:00c00000:0412:0001:1:194
 Multipantalla 6
 p:Movistar+ (Astra),c:000faa,c:010fab,c:030faa
-7576:00c00000:0412:0001:1:185
+7576:00c00000:0412:0001:1:195
 Multideporte 7
 p:Movistar+ (Astra),c:000fbe,c:010fbf,c:030fbe
-7575:00c00000:0412:0001:1:182
+7575:00c00000:0412:0001:1:192
 Multideporte.4
 p:Movistar+ (Astra),c:000fe6,c:010fe7,c:030fe6
-757a:00c00000:0412:0001:1:183
+757a:00c00000:0412:0001:1:193
 Multideporte 5
 p:Movistar+ (Astra),c:000ff0,c:010ff1,c:030ff0
+756e:00c00000:0412:0001:1:179
+Multifutbol 1
+p:Movistar+ (Astra),c:000fb4,c:010fb5,c:030fb4
+7577:00c00000:0412:0001:1:180
+Multifutbol 2
+p:Movistar+ (Astra),c:0000a9,c:010074,c:0300a9
+7579:00c00000:0412:0001:1:182
+Multifutbol 4
+p:Movistar+ (Astra),c:000fd2,c:010fd3,c:030fd2
+757e:00c00000:0412:0001:1:183
+Multifutbol 5
+p:Movistar+ (Astra),c:000fb4,c:010fb5,c:030fb4
+7578:00c00000:0412:0001:1:181
+Multifutbol 3
+p:Movistar+ (Astra),c:000fc8,c:010fc9,c:030fc8
+757c:00c00000:0412:0001:1:186
+C+ LIGA 2 A
+p:Movistar+ (Astra)
+757d:00c00000:0412:0001:1:187
+C+ LIGA 2 B
+p:Movistar+ (Astra)
+757f:00c00000:0412:0001:1:184
+Multifutbol  6
+p:Movistar+ (Astra)
+7580:00c00000:0412:0001:1:48
+Canal+ Liga 2
+p:Movistar+ (Astra)
 7883:00c00000:0414:0001:25:15
 TNT HD
 p:Movistar+ (Astra),c:0000a1,c:010056,c:0300a1
@@ -1658,12 +1703,6 @@ p:Movistar+ (Astra),c:0000a6,c:010074,c:0300a6
 7533:00c00000:0426:0001:25:19
 AMC HD
 p:Movistar+ (Astra),c:0000a2,c:01005d,c:02002a,c:0300a2,c:050001,C:1810
-79f4:00c00000:0443:0001:1:116
-EuroNews
-p:Globecast,f:0040,c:000980,c:010981,c:030980
-1c7a:00c00000:0457:0001:1:124
-Sky News International
-p:SES ASTRA,f:0040,c:00050a,c:0108f2,c:03050a
 019e:eeee0000:03e8:22d4:25:0
 La 1 HD.
 p:RTVE
@@ -1764,5 +1803,5 @@ p:RTVE
 tdp HD
 p:RTVE
 end
-Editor:DreamSet 2.4.3 - http://www.dreamset-editor.com
+Editor:DreamSet 2.4.5 - http://www.dreamset-editor.com
 Author:Sorys-linux Box
