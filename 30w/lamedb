@@ -66,6 +66,12 @@ transponders
 0ce4acf6:0065:ffff
 	s 11510000:10000000:1:3:-300:2:0
 /
+0ce40000:0069:0053
+	s 12284000:27500000:0:3:-300:2:0:1:2:0:2
+/
+0ce40000:056c:056c
+	s 10730000:27500000:0:3:-300:2:0:1:2:0:2
+/
 eeee0000:03e8:22d4
 	t 762000000:0:5:5:3:2:4:4:2:0
 /
@@ -195,14 +201,26 @@ p:Telefonica Servicios Audiovisuales,c:001041,c:011042,c:031041
 TVI Internacional
 p:TSA
 0009:0ce4aa8a:000f:0002:1:0
-Canal Iberalia
-p:Movistar+ (Hispasat),c:001101,c:011102,c:031101
+Iberalia
+p:Harmonic,c:001101,c:011102,c:031101
+0001:0ce4aa8a:000f:0002:1:0
+Aragón TV
+p:Telefonica Servicios Audiovisuales,c:000222,c:010220,c:030222
+000b:0ce4aa8a:000f:0002:1:0
+TV Record Japao
+p:Harmonic,c:000030,c:010031,c:030030
 0052:0ce40000:0003:0031:1:0
 MTV Rocks
 p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
 0067:0ce40000:0003:0031:1:0
 BBC World News
 p:Canal+ (Hispasat),c:0000a2,c:010058,c:0300a2
+0709:0ce40000:0003:0031:1:0
+GARAGE CABLE
+p:Movistar+ (Hispasat),c:001b62,c:011b63,c:021b66,c:031b62
+0708:0ce40000:0003:0031:1:0
+Nick Junior
+p:Movistar+ (Hispasat),c:001b58,c:011b59,c:031b58
 0007:0ce40000:0007:0031:1:159
 Canal+ Yomvi
 p:Movistar+ (Hispasat),c:0000a3,c:0100fe,c:0300a3
@@ -212,9 +230,6 @@ p:Movistar+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
 003e:0ce40000:0007:0031:1:151
 Real Madrid TV
 p:Movistar+ (Hispasat),c:0000ad,c:010084,c:0300ad
-004b:0ce40000:0007:0031:1:153
-Nick Junior
-p:Movistar+ (Hispasat),c:0000a9,c:010074,c:0300a9
 004c:0ce40000:0007:0031:1:154
 Canal Panda
 p:Movistar+ (Hispasat),c:0000ab,c:01007c,c:0300ab
@@ -288,7 +303,7 @@ p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:020029,c:0300a3
 C+ DCINE
 p:Movistar+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
 0040:0ce40000:0004:0031:1:180
-Garage TV
+Canal Iberalia
 p:Movistar+ (Hispasat),c:0000a4,c:010060,c:0300a4
 0047:0ce40000:0004:0031:1:181
 Disney Junior
@@ -386,6 +401,9 @@ p:Movistar+ (Hispasat)
 0be8:0ce40000:0006:0031:1:0
 Canal+ Liga 2
 p:Movistar+ (Hispasat)
+0beb:0ce40000:0006:0031:1:0
+BeIN Sports
+p:Movistar+ (Hispasat)
 1771:0ce40000:000d:0028:1:292
 Al Jazeera English
 p:,c:00003d,c:01003e,c:03003d
@@ -410,12 +428,6 @@ p:Nos,c:0002bd,c:0102be,c:0302bd
 0001:0ce40000:000d:0028:1:0
 EFE TV
 p:,c:000065,c:01006f,c:030065
-0003:0ce40000:000d:0028:1:0
-Real Madrid TV
-p:Overon,c:000459,c:010463,c:030459
-0565:0ce40000:000d:0028:1:0
-Hispan TV
-p:Overon,c:000835,c:010836,c:030833
 0027:0ce40000:0005:0031:1:300
 LTC - La Tienda en Casa
 p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:0300a3
@@ -470,9 +482,6 @@ p:Canal+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
 0087:0ce40000:0008:0031:1:326
 Taquilla XY
 p:Canal+ (Hispasat),c:0000a0,c:010050,c:0300a0
-008b:0ce40000:0008:0031:1:327
-Taquilla X
-p:Canal+ (Hispasat),c:0000ae,c:010088,c:0300ae
 0055:0ce40000:0008:0031:1:0
 Mezzo
 p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:0300a3
@@ -500,6 +509,18 @@ p:Movistar+ (Hispasat),c:0000a6,c:010069,c:0300a6
 0c75:0ce40000:0008:0031:1:0
 C+ LIGA 2 D
 p:Movistar+ (Hispasat),c:000fa0,c:010fa1,c:030fa0
+0c80:0ce40000:0008:0031:1:0
+MULTIFUT. 8
+p:CANAL+
+0c81:0ce40000:0008:0031:1:1
+MULTIFUT. 9
+p:CANAL+
+0c82:0ce40000:0008:0031:1:2
+Multideporte 8
+p:CANAL+
+0c83:0ce40000:0008:0031:1:3
+Multideporte 9
+p:CANAL+
 000a:0ce40000:0001:0031:1:334
 Canal+ Liga
 p:Movistar+ (Hispasat),c:0000a0,c:010050,c:0300a0
@@ -675,7 +696,7 @@ p:Nos,c:001440,c:011441,c:021442,c:031440
 SIC Noticias
 p:Nos,c:001f20,c:011f21,c:031f20
 0065:0ce40000:0024:0036:1:6
-RTP Informação
+RTP 3
 p:Nos,c:001c2a,c:011c2b,c:021412,c:031c2a
 0068:0ce40000:0024:0036:1:0
 RTP Madeira
@@ -770,9 +791,6 @@ p:Meo,c:001261,c:011262,c:031261
 00d8:0ce40000:0066:0053:25:0
 TV Séries
 p:Meo,c:001279,c:01127a,c:031279
-00d9:0ce40000:0066:0053:25:0
-PFC - Campanha
-p:Meo,c:001281,c:031281
 012d:0ce40000:0067:0053:25:0
 TVI
 p:Meo,c:001401,c:011202,c:021404,c:031401
@@ -963,7 +981,7 @@ p:Meo,c:001009,c:01100a,c:021004,c:031009
 RTP Informação
 p:Meo,c:001021,c:011022,c:021004,c:031021
 006a:0ce40000:0065:0053:25:0
-RTP Madeira
+RTP 3
 p:Meo,c:001029,c:01102a,c:021004,c:031029
 006c:0ce40000:0065:0053:25:0
 Eurosport
@@ -996,7 +1014,7 @@ p:Meo,c:0010d9,c:0110da,c:0310d9
 Sport TV 4
 p:Meo,c:0010e1,c:0110e2,c:0310e1
 0082:0ce40000:0065:0053:25:0
-JimJam EMEA
+JimJam
 p:Meo,c:0010e9,c:0110ea,c:0310e9
 0083:0ce40000:0065:0053:25:0
 TVCine 4
@@ -1022,9 +1040,6 @@ p:Meo,c:001051,c:011052,c:031051
 0068:0ce40000:0065:0053:25:0
 CM TV
 p:Meo,c:001019,c:01101a,c:031019
-0084:0ce40000:0065:0053:25:0
-Benfica TV 1
-p:Meo,c:0010f9,c:0110fa,c:0310f9
 0075:0ce40000:0065:0053:25:0
 AMC (Portugal)
 p:Meo,c:001081,c:011082,c:031081
@@ -1088,9 +1103,6 @@ p:Nos,c:001953,c:011954,c:031953
 01f5:0ce40000:0030:0036:25:0
 AR TV
 p:Nos,c:001d06,c:011d07,c:031d06
-01f8:0ce40000:0030:0036:25:0
-MCM TOP
-p:Nos,c:001d02,c:011d03,c:031d02
 01fa:0ce40000:0030:0036:25:0
 BBC Entertainment
 p:Nos,c:001d0e,c:011d0f,c:031d0e
@@ -1166,9 +1178,21 @@ p:Meo,c:001904,c:011905,c:031904
 00e8:0ce40000:0030:0036:25:0
 TLC Europe
 p:Nos,c:001902,c:011903,c:031902
+00fc:0ce40000:0030:0036:25:0
+TVI Reality
+p:Nos,c:001d1c,c:011d1d,c:031d1c
+01f8:0ce40000:0030:0036:25:0
+MCM TOP
+p:Nos,c:001d02,c:011d03,c:031d02
 0014:0ce4acf6:0065:ffff:1:0
 XTVL (Xarxa de Televisions Locals)
 p:,c:0000d2,c:0100c8,c:0300d2
+01f5:0ce40000:0069:0053:25:0
+Ultra HD 4K
+p:Meo,c:001801,c:011802,c:031801
+0002:0ce40000:056c:056c:25:0
+BabyFirst
+p:Harmonic,c:0007d2,c:010bba,c:0307d2
 019e:eeee0000:03e8:22d4:25:0
 La 1 HD.
 p:RTVE
