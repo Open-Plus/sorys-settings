@@ -159,8 +159,11 @@ transponders
 00c00000:03fa:0001
 	s 11479000:22000000:1:2:192:2:0:1:2:0:2
 /
-00c00000:0457:0001
-	s 12603000:22000000:0:4:192:2:0
+00c00000:0418:0001
+	s 11185000:22000000:1:4:192:2:0
+/
+00c00000:0432:0001
+	s 11895000:29700000:1:4:192:2:0:1:0:0
 /
 eeee0000:03e8:22d4
 	t 762000000:0:5:5:3:2:4:4:2:0
@@ -188,6 +191,9 @@ eeee0000:000e:22d4
 /
 eeee0000:9c40:22d4
 	t 682000000:0:5:5:3:2:4:4:2:0
+/
+eeee0000:0012:22d4
+	t 594000000:0:6:6:3:2:4:4:2:0
 /
 end
 services
@@ -319,16 +325,16 @@ C+ LIGA 2 D
 p:Movistar+ (Astra),c:000fa0,c:010fa1,c:030fa0
 7690:00c00000:041e:0001:1:0
 MultiFutbol 8
-p:CANAL+,c:0000ab,c:01007c,c:020041,c:0300ab
+p:Movistar+ (Astra),c:0000ab,c:01007c,c:020041,c:0300ab
 7693:00c00000:041e:0001:1:0
 Multideporte 8
-p:CANAL+,c:0000ad,c:010084,c:0300ad
+p:Movistar+ (Astra),c:0000ad,c:010084,c:0300ad
 76a6:00c00000:041e:0001:1:0
 MultiFutbol 9
-p:CANAL+
+p:Movistar+ (Astra)
 76a7:00c00000:041e:0001:1:1
 Multideporte  9
-p:CANAL+
+p:Movistar+ (Astra)
 7500:00c00000:0420:0001:25:33
 Canal+ Acción HD
 p:Movistar+ (Astra),c:0000a2,c:01005c,c:0300a2
@@ -636,7 +642,7 @@ p:Movistar+ (Astra)
 Canal+ Liga 2
 p:Movistar+ (Astra)
 757b:00c00000:0412:0001:1:50
-BeIN Sports
+M+ STARWARS
 p:Movistar+ (Astra)
 7883:00c00000:0414:0001:25:15
 TNT HD
@@ -848,12 +854,6 @@ p:GlobeCast,c:00025d,c:010271,c:021a2d,c:03025d
 1afe:00c00000:03fe:0001:1:130
 France 24 (in Arabic)
 p:GlobeCast,c:000262,c:010276,c:021a36,c:030262
-1af5:00c00000:03fe:0001:1:0
-Ciné Polar
-p:GLOBECAST,c:000259,c:010281,c:030259
-1af6:00c00000:03fe:0001:1:0
-Ciné FX
-p:GLOBECAST,c:00025a,c:010282,c:03025a
 272e:00c00000:0402:0001:1:120
 CNBC
 p:Canal Digitaal,c:000133,c:010134,c:030133
@@ -911,12 +911,6 @@ p:Movistar+ (Astra),c:000c13,c:010c14,c:031ffe
 6ff0:00c00000:042a:0001:1:105
 VH-1 (Video Hits One)
 p:Movistar+ (Astra),c:000bf5,c:010bf6,c:031ffe
-6ffc:00c00000:042a:0001:1:348
-Nickelodeon
-p:CanalSat,c:000c09,c:010c0a,c:020c0c,c:031ffe
-6ff7:00c00000:042a:0001:1:344
-Game One
-p:CanalSat,c:000bd7,c:010bd8,c:020bdb,c:031ffe
 6ff8:00c00000:042a:0001:1:345
 MTV Hits.
 p:CanalSat,c:000be1,c:010be2,c:031ffe
@@ -938,12 +932,12 @@ p:Austriasat,c:000beb,c:010bec,c:031ffe
 6ff1:00c00000:042a:0001:1:339
 VH-1 Classic
 p:Canal Digitaal,c:000bff,c:010c00,c:031ffe
-6ff2:00c00000:042a:0001:1:0
-NICKELODEON France.
-p:CanalSat,c:000c09,c:010c0a,c:020c0c,c:031ffe
 6ff5:00c00000:042a:0001:1:0
 Nick Junior
 p:Movistar+ (Astra),c:000c27,c:010c28,c:030c27
+6ff7:00c00000:042a:0001:1:0
+Game One
+p:CanalSat,c:000bd7,c:010bd8,c:020bdb,c:031ffe
 6f73:00c00000:042c:0001:1:0
 Cherie 25
 p:CanalSat,c:000709,c:01070b,c:030709
@@ -1049,9 +1043,6 @@ p:CanalSat,c:000456,c:010461,c:020475,c:030456
 7004:00c00000:0436:0001:1:361
 VIVA/Comedy Central
 p:MTV Networks,c:000fdd,c:010fde,c:020fe0,c:031ffe
-7005:00c00000:0436:0001:1:463
-Nick Junior
-p:CanalSat,c:000fe7,c:010fe8,c:020fea,c:031ffe
 7008:00c00000:0436:0001:1:465
 Nickelodeon Germany
 p:MTV Networks,c:001005,c:011006,c:021008,c:031ffe
@@ -1070,6 +1061,9 @@ p:Canal Digitaal,c:000fc9,c:010fca,c:020fcc,c:031ffe
 7003:00c00000:0436:0001:1:0
 Comedy Central Nederland
 p:Canal Digitaal,c:000fd3,c:010fd4,c:020fd6,c:031ffe
+7006:00c00000:0436:0001:1:0
+Nick Jr Europe
+p:MTV Networks,c:000ff1,c:010ff2,c:030ff1
 2261:00c00000:0438:0001:25:472
 Canal+ HD
 p:CanalSat,c:0000a0,c:010052,c:0300a0
@@ -1406,8 +1400,8 @@ p:Movistar+ (Astra),c:0000a5,c:010064,c:020030,c:0300a5
 78c1:00c00000:03ec:0001:25:157
 Comedy Central HD
 p:Movistar+ (Astra),c:0000a5,c:010064,c:020030,c:0300a5
-78b4:00c00000:03ec:0001:25:0
-BeIN Sports HD
+78b4:00c00000:03ec:0001:25:28
+M+ STARWARS HD
 p:Movistar+ (Astra)
 4e27:00c00000:043a:0001:1:0
 Puls 4 Austria
@@ -1437,13 +1431,10 @@ p:CanalSat,c:0001fe,c:010209,c:02021d,c:0301fe
 MTV HD France
 p:CanalSat,c:00019a,c:0101a5,c:03019a
 1f41:00c00000:042e:0001:25:0
-MTV Base HD
+BET HD France
 p:CanalSat,c:00006e,c:010079,c:03006e
-1f42:00c00000:042e:0001:25:0
-MTV Pulse HD
-p:CanalSat,c:0000d2,c:0100dd,c:0300d2
 1f43:00c00000:042e:0001:25:0
-MTV Idol HD
+MTV Hits HD
 p:CanalSat,c:000136,c:010141,c:030136
 1f47:00c00000:042e:0001:25:0
 OCS City HD
@@ -1697,6 +1688,9 @@ p:CSAT
 22c9:00c00000:045a:0001:25:0
 Game One HD
 p:CanalSat,c:0001fe,c:010209,c:0301fe
+22cc:00c00000:045a:0001:25:0
+La Chaîne du Père Noel
+p:CanalSat,c:00032a,c:010335,c:03032a
 7531:00c00000:0426:0001:25:57
 Movistar F1 HD
 p:Movistar+ (Astra),c:0000a0,c:010050,c:0300a0
@@ -1724,9 +1718,12 @@ p:CanalSat,c:00032a,c:010335,c:03032a
 1901:00c00000:03fa:0001:25:0
 Canal+ UHD
 p:,c:00006e,c:010079,c:03006e
-1c7a:00c00000:0457:0001:1:124
-Sky News International
-p:SES ASTRA,f:0040,c:00050a,c:0108f2,c:03050a
+10ea:00c00000:0418:0001:1:0
+QVC France HD
+p:CanalSat,c:0000ff,c:010100,c:0300ff
+206d:00c00000:0432:0001:25:0
+ BFM TV HD
+p:CanalSat,c:00006e,c:010079,c:03006e
 019e:eeee0000:03e8:22d4:25:0
 La 1 HD.
 p:RTVE
@@ -1826,6 +1823,9 @@ p:RTVE
 9c43:eeee0000:9c40:22d4:25:0
 tdp HD
 p:RTVE
+0066:eeee0000:0012:22d4:25:0
+Boing HD
+p:MEDIASET
 end
-Editor:DreamSet 2.4.5 - http://www.dreamset-editor.com
+Editor:DreamSet 2.4.6 - http://www.dreamset-editor.com
 Author:Sorys-linux Box

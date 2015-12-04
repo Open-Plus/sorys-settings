@@ -57,8 +57,6 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.23_5_e___tv_vlaanderen.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.23_5_e___skylink.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.23_5_e___cs_link_sky_link.tv
-#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.__amos_5__17e_.tv
-#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.17_0_e___satelio_tv.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.__eutelsat_eurobird_16e__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.16_0_e___digit_alb.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.16_0_e___tring_digital.tv
@@ -67,6 +65,7 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.16_0_e___p_nk.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.16_0_e___sentivision.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.16_0_e___mtel.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.16_0_e___antiksat.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.__eurobird_9e__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.9_0_e___kabelkiosk.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.9_0_e___hello_hd.tv

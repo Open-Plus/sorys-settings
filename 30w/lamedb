@@ -69,9 +69,6 @@ transponders
 0ce40000:0069:0053
 	s 12284000:27500000:0:3:-300:2:0:1:2:0:2
 /
-0ce40000:056c:056c
-	s 10730000:27500000:0:3:-300:2:0:1:2:0:2
-/
 eeee0000:03e8:22d4
 	t 762000000:0:5:5:3:2:4:4:2:0
 /
@@ -98,6 +95,9 @@ eeee0000:000e:22d4
 /
 eeee0000:9c40:22d4
 	t 682000000:0:5:5:3:2:4:4:2:0
+/
+eeee0000:0012:22d4
+	t 594000000:0:6:6:3:2:4:4:2:0
 /
 end
 services
@@ -206,9 +206,6 @@ p:Harmonic,c:001101,c:011102,c:031101
 0001:0ce4aa8a:000f:0002:1:0
 Aragón TV
 p:Telefonica Servicios Audiovisuales,c:000222,c:010220,c:030222
-000b:0ce4aa8a:000f:0002:1:0
-TV Record Japao
-p:Harmonic,c:000030,c:010031,c:030030
 0052:0ce40000:0003:0031:1:0
 MTV Rocks
 p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
@@ -402,7 +399,7 @@ p:Movistar+ (Hispasat)
 Canal+ Liga 2
 p:Movistar+ (Hispasat)
 0beb:0ce40000:0006:0031:1:0
-BeIN Sports
+M+ STARWARS
 p:Movistar+ (Hispasat)
 1771:0ce40000:000d:0028:1:292
 Al Jazeera English
@@ -617,9 +614,6 @@ p:Nos,c:0019d2,c:0119d3,c:0319d2
 0328:0ce40000:002f:0036:25:0
 Nickelodeon Portugal
 p:Nos,c:001f30,c:011f31,c:031f30
-0329:0ce40000:002f:0036:25:0
-NBA TV
-p:Nos,c:001f40,c:011f41,c:031f40
 032a:0ce40000:002f:0036:25:0
 WooHoo
 p:Nos,c:001f50,c:011f51,c:031f50
@@ -644,6 +638,9 @@ p:Nos,c:001f74,c:011f75,c:031f74
 051a:0ce40000:002f:0036:25:0
 Motorvision
 p:Nos,c:001f84,c:011f85,c:031f84
+051d:0ce40000:002f:0036:25:0
+BBC Entertainment
+p:Nos,c:001260,c:011261,c:031260
 001a:0ce40000:000a:0031:1:370
 Cosmopolitan TV
 p:Movistar+ (Hispasat),c:0000aa,c:010078,c:0300aa
@@ -773,9 +770,6 @@ p:Meo,c:001211,c:031fff
 00cc:0ce40000:0066:0053:25:0
 Sy Fy Portugal
 p:Meo,c:001219,c:01121a,c:031219
-00ce:0ce40000:0066:0053:25:0
-Sporting TV
-p:Meo,c:001229,c:01122a,c:031229
 00d0:0ce40000:0066:0053:25:0
 Motors TV
 p:Meo,c:001239,c:01123a,c:031239
@@ -791,6 +785,9 @@ p:Meo,c:001261,c:011262,c:031261
 00d8:0ce40000:0066:0053:25:0
 TV Séries
 p:Meo,c:001279,c:01127a,c:031279
+00cf:0ce40000:0066:0053:25:0
+Canção Nova
+p:Meo,c:001231,c:011232,c:031231
 012d:0ce40000:0067:0053:25:0
 TVI
 p:Meo,c:001401,c:011202,c:021404,c:031401
@@ -873,8 +870,8 @@ p:Nos,c:001739,c:01173a,c:031739
 RTP Memoria
 p:Nos,c:001741,c:011742,c:031741
 0164:0ce40000:0067:0053:25:0
-FX Portugal
-p:Meo,c:001749,c:01174a,c:031749
+FOX Comedy Spain & Portugal
+p:Nos,c:001749,c:01174a,c:031749
 0165:0ce40000:0067:0053:25:0
 Fuel TV
 p:Nos,c:001751,c:011752,c:031751
@@ -978,10 +975,10 @@ p:Meo,c:001001,c:011002,c:021004,c:031001
 RTP 2
 p:Meo,c:001009,c:01100a,c:021004,c:031009
 0069:0ce40000:0065:0053:25:0
-RTP Informação
+RTP 3
 p:Meo,c:001021,c:011022,c:021004,c:031021
 006a:0ce40000:0065:0053:25:0
-RTP 3
+RTP Madeira
 p:Meo,c:001029,c:01102a,c:021004,c:031029
 006c:0ce40000:0065:0053:25:0
 Eurosport
@@ -1184,15 +1181,15 @@ p:Nos,c:001d1c,c:011d1d,c:031d1c
 01f8:0ce40000:0030:0036:25:0
 MCM TOP
 p:Nos,c:001d02,c:011d03,c:031d02
+00fb:0ce40000:0030:0036:25:0
+Sporting TV
+p:Nos,c:001d1a,c:011d1b,c:031d1a
 0014:0ce4acf6:0065:ffff:1:0
 XTVL (Xarxa de Televisions Locals)
 p:,c:0000d2,c:0100c8,c:0300d2
 01f5:0ce40000:0069:0053:25:0
 Ultra HD 4K
 p:Meo,c:001801,c:011802,c:031801
-0002:0ce40000:056c:056c:25:0
-BabyFirst
-p:Harmonic,c:0007d2,c:010bba,c:0307d2
 019e:eeee0000:03e8:22d4:25:0
 La 1 HD.
 p:RTVE
@@ -1292,6 +1289,9 @@ p:RTVE
 9c43:eeee0000:9c40:22d4:25:0
 tdp HD
 p:RTVE
+0066:eeee0000:0012:22d4:25:0
+Boing HD
+p:MEDIASET
 end
-Editor:DreamSet 2.4.5 - http://www.dreamset-editor.com
+Editor:DreamSet 2.4.6 - http://www.dreamset-editor.com
 Author:Sorys-linux Box
