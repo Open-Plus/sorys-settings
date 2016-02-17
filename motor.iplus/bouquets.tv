@@ -9,6 +9,7 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.tnt_sat.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.telesat.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.skylink.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.orf_digital.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.alemanes_free.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.___hotbird_13e__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.sky_italia.tv
@@ -18,6 +19,8 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.al_jazeera_sport.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet._nova.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.tiv_sat.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.ssr_srg.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.13_0_e___visiontv.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.___hispasat_30w__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.canal___hispasat_.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.zon.tv
@@ -50,6 +53,7 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.26_0_e___jmc.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.26_0_e___mcb.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.26_0_e___ab_sat_osn.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.26_0_e___harmonic.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.es_hail_1__25_5_e.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.25_5_e___bein_sports.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.astra_3a_3b_23_5e.tv
@@ -66,6 +70,8 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.16_0_e___sentivision.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.16_0_e___mtel.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.16_0_e___antiksat.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.__eutelsat_w2a__10_e___.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.10_0_e___harmonic.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.__eurobird_9e__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.9_0_e___kabelkiosk.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.9_0_e___hello_hd.tv
@@ -83,8 +89,8 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.0_8_w___st.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.__amos_4w__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.4_0_w___magio_tv.tv
-#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.4_0_w___xtra_tv.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.4_0_w___harmonic.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.4_0_w___visiontv.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.__atlantic_bird_5_0__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.5_0_w___orange.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.nilesat_a_bird_7w__.tv
@@ -101,3 +107,4 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet._erotic.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.http___listassorys_com_.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.tdt.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.iptv_tdt.tv

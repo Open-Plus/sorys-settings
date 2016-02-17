@@ -70,34 +70,34 @@ transponders
 	s 12284000:27500000:0:3:-300:2:0:1:2:0:2
 /
 eeee0000:03e8:22d4
-	t 762000000:0:5:5:3:2:4:4:2:0
+	t 762000000:0:5:5:3:2:4:4:2:0:0:0
 /
 eeee0000:0102:22d4
-	t 778000000:0:1:1:2:1:3:0:2:0
+	t 778000000:0:1:1:2:1:3:0:2:0:0:0
 /
 eeee0000:01f6:22d4
-	t 578000000:0:5:5:3:2:4:4:2:0
+	t 578000000:0:5:5:3:2:4:4:2:0:0:0
 /
 eeee0000:0001:0001
-	t 530000000:0:6:6:3:2:4:4:2:0
+	t 530000000:0:6:6:3:2:4:4:2:0:0:0
 /
 eeee0000:0011:22d4
-	t 610000000:0:6:6:3:2:4:4:2:0
+	t 610000000:0:6:6:3:2:4:4:2:0:0:0
 /
 eeee0000:000f:22d4
-	t 538000000:0:5:5:3:2:4:4:2:0
+	t 538000000:0:5:5:3:2:4:4:2:0:0:0
 /
 eeee0000:0010:22d4
-	t 514000000:0:5:5:3:2:4:4:2:0
+	t 514000000:0:5:5:3:2:4:4:2:0:0:0
 /
 eeee0000:000e:22d4
-	t 490000000:0:5:5:3:2:4:4:2:0
+	t 490000000:0:5:5:3:2:4:4:2:0:0:0
 /
 eeee0000:9c40:22d4
-	t 682000000:0:5:5:3:2:4:4:2:0
+	t 682000000:0:5:5:3:2:4:4:2:0:0:0
 /
 eeee0000:0012:22d4
-	t 594000000:0:6:6:3:2:4:4:2:0
+	t 594000000:0:6:6:3:2:4:4:2:0:0:0
 /
 end
 services
@@ -203,9 +203,6 @@ p:TSA
 0009:0ce4aa8a:000f:0002:1:0
 Iberalia
 p:Harmonic,c:001101,c:011102,c:031101
-0001:0ce4aa8a:000f:0002:1:0
-Aragón TV
-p:Telefonica Servicios Audiovisuales,c:000222,c:010220,c:030222
 0052:0ce40000:0003:0031:1:0
 MTV Rocks
 p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
@@ -237,7 +234,7 @@ p:Movistar+ (Hispasat),c:0000a8,c:010070,c:0300a8
 C+ TAQUILLA
 p:DIGITAL+,c:0000ae,c:010190,c:0300ae
 005d:0ce40000:0007:0031:1:0
-DiscoveryMax
+Eurosport 2
 p:Movistar+ (Hispasat),c:0000a7,c:01006c,c:020035,c:0300a7
 005e:0ce40000:0007:0031:1:0
 Paramount Channel 
@@ -245,6 +242,12 @@ p:Movistar+ (Hispasat)
 0036:0ce40000:0007:0031:1:0
 Canal+ Deporte 2
 p:Movistar+ (Hispasat)
+0c25:0ce40000:0007:0031:1:0
+Classica
+p:Movistar+ (Hispasat),c:0000a9,c:010074,c:0300a9
+0c53:0ce40000:0007:0031:1:0
+ARAGON TV 
+p:Movistar+
 0001:0ce40000:0002:0031:1:161
 Canal+ Estrenos
 p:Movistar+ (Hispasat),c:0000a0,c:010050,c:020020,c:0300a0
@@ -309,7 +312,7 @@ p:Movistar+ (Hispasat),c:0000a5,c:010064,c:02002f,c:0300a5
 Nova
 p:Movistar+ (Hispasat),c:0000a1,c:010054,c:0300a1
 0bbf:0ce40000:0004:0031:1:0
-CANAL+
+#0
 p:Movistar+ (Hispasat)
 0034:0ce40000:0006:0031:1:184
 Canal+ Liga Multi
@@ -363,13 +366,13 @@ p:Canal+ (Hispasat),c:000fa0,c:010fa1,c:030fa0
 Multideporte 6
 p:Canal+ (Hispasat),c:000faa,c:010fab,c:030faa
 00c4:0ce40000:0006:0031:1:209
-Multideporte 7
+Bein Max 8
 p:Canal+ (Hispasat),c:000fbe,c:010fbf,c:030fbe
 0094:0ce40000:0006:0031:1:0
 Multideporte 4
 p:Digital+,c:000fe6,c:010fe7,c:030fe6
 0095:0ce40000:0006:0031:1:0
-Multideporte 5
+Bein Max 2
 p:DIGITAL+,c:000ff0,c:010ff1,c:030ff0
 0c6b:0ce40000:0006:0031:1:0
 MULTIFUT.  1
@@ -387,19 +390,19 @@ p:Movistar+ (Hispasat)
 MULTIFUT. 5
 p:Movistar+ (Hispasat)
 0c70:0ce40000:0006:0031:1:4
-MULTIFUT. 6
+Bein Max 3
 p:Movistar+ (Hispasat)
 0c72:0ce40000:0006:0031:1:5
-C+ LIGA 2 A
+Bein Max 4
 p:Movistar+ (Hispasat)
 0c73:0ce40000:0006:0031:1:6
-C+ LIGA 2 B
+Bein Max 5
 p:Movistar+ (Hispasat)
 0be8:0ce40000:0006:0031:1:0
 Canal+ Liga 2
 p:Movistar+ (Hispasat)
 0beb:0ce40000:0006:0031:1:0
-M+ STARWARS
+BeiN Sport
 p:Movistar+ (Hispasat)
 1771:0ce40000:000d:0028:1:292
 Al Jazeera English
@@ -453,10 +456,10 @@ p:Canal+ (Hispasat),c:0000a1,c:010054,c:0300a1
 Canal de las Estrellas
 p:Canal+ (Hispasat),c:0000a9,c:010074,c:0300a9
 0023:0ce40000:0005:0031:1:0
-Mexico Travel Channel
+Eurosport 1
 p:Canal+ (Hispasat),c:0000a8,c:010070,c:0300a8
 0041:0ce40000:0005:0031:1:0
-MOVISTAR F1
+Movistar F1
 p:Movistar+ (Hispasat)
 0006:0ce40000:0008:0031:1:315
 C+ MultiCINE
@@ -501,23 +504,26 @@ p:Movistar+ (Hispasat),c:0000a9,c:010074,c:0300a9
 MULTIFUT. 7
 p:Movistar+ (Hispasat),c:0000a4,c:010060,c:0300a4
 0c74:0ce40000:0008:0031:1:0
-C+ LIGA 2 C
+Bein Max 6
 p:Movistar+ (Hispasat),c:0000a6,c:010069,c:0300a6
 0c75:0ce40000:0008:0031:1:0
-C+ LIGA 2 D
+Bein Max 7
 p:Movistar+ (Hispasat),c:000fa0,c:010fa1,c:030fa0
 0c80:0ce40000:0008:0031:1:0
 MULTIFUT. 8
 p:CANAL+
 0c81:0ce40000:0008:0031:1:1
-MULTIFUT. 9
+MULTIFUT. 6
 p:CANAL+
 0c82:0ce40000:0008:0031:1:2
-Multideporte 8
+Multideporte 5
 p:CANAL+
 0c83:0ce40000:0008:0031:1:3
-Multideporte 9
+Multideporte 7
 p:CANAL+
+0cb3:0ce40000:0008:0031:1:0
+BEIN MAX 1
+p:Movistar+
 000a:0ce40000:0001:0031:1:334
 Canal+ Liga
 p:Movistar+ (Hispasat),c:0000a0,c:010050,c:0300a0
@@ -621,7 +627,7 @@ p:Nos,c:001f50,c:011f51,c:031f50
 Caça & Pesca
 p:Nos,c:001f60,c:011f62,c:031f60
 0330:0ce40000:002f:0036:25:0
-TVI
+Porto Canal
 p:Nos,c:001f70,c:011f71,c:031f70
 0331:0ce40000:002f:0036:25:0
 BabyFirst
@@ -633,7 +639,7 @@ p:Nos,c:001bba,c:011bbb,c:031bba
 RTP 1 HD
 p:Nos,c:001de0,c:011de1,c:031de0
 0519:0ce40000:002f:0036:25:0
-Sporting TV
+CM TV
 p:Nos,c:001f74,c:011f75,c:031f74
 051a:0ce40000:002f:0036:25:0
 Motorvision
@@ -666,7 +672,7 @@ p:Canal+ (Hispasat),c:0000a4,c:010060,c:0300a4
 Historia
 p:Movistar+ (Hispasat),c:0000ab,c:01007c,c:0300ab
 0061:0ce40000:000a:0031:1:0
-Fashion TV
+Discovery Channel
 p:Movistar+ (Hispasat),c:0000a5,c:010064,c:0300a5
 012c:0ce40000:000a:0031:1:0
 Canal Sur Andalucia TV
@@ -825,7 +831,7 @@ p:Meo,c:001731,c:011732,c:031731
 RTP Memoria
 p:Meo,c:001741,c:011742,c:031741
 051a:0ce40000:0067:0053:25:0
-FX
+FOX Comedy
 p:Meo,c:001749,c:01174a,c:031749
 051d:0ce40000:0067:0053:25:0
 E! Entertainment TV
@@ -860,9 +866,6 @@ p:Nos,c:001721,c:011722,c:031721
 0160:0ce40000:0067:0053:25:0
 SIC Radical
 p:Nos,c:001729,c:01172a,c:031729
-0161:0ce40000:0067:0053:25:0
-Porto Canal
-p:Nos,c:001731,c:011732,c:031731
 0162:0ce40000:0067:0053:25:0
 Cartoon Network
 p:Nos,c:001739,c:01173a,c:031739
@@ -878,9 +881,6 @@ p:Nos,c:001751,c:011752,c:031751
 0167:0ce40000:0067:0053:25:0
 E! Entertainment TV
 p:Nos,c:001761,c:011762,c:031761
-0168:0ce40000:0067:0053:25:0
-CBS Reality
-p:Nos,c:001769,c:01176a,c:031769
 0169:0ce40000:0067:0053:25:0
 Fashion TV
 p:Nos,c:001771,c:011772,c:031771
@@ -920,6 +920,9 @@ p:Nos,c:0017c1,c:0117c2,c:0317c1
 0529:0ce40000:0067:0053:25:0
 MCM POP
 p:Meo,c:0017c1,c:0117c2,c:0317c1
+051c:0ce40000:0067:0053:25:0
+SIC Caras
+p:Meo,c:001759,c:01175a,c:031759
 0194:0ce40000:0068:0053:25:0
 Hollywood HD
 p:Meo,c:001619,c:01161a,c:031619
@@ -1292,6 +1295,9 @@ p:RTVE
 0066:eeee0000:0012:22d4:25:0
 Boing HD
 p:MEDIASET
+0065:eeee0000:0012:22d4:25:0
+atreseries HD
+p:ATRESMEDIA
 end
-Editor:DreamSet 2.4.6 - http://www.dreamset-editor.com
+Editor:DreamSet 2.4.8 - http://www.dreamset-editor.com
 Author:Sorys-linux Box
