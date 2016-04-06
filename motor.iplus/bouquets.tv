@@ -38,6 +38,7 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.___turksat_42e__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.42_0_e___d_smart.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.42_0_e___digiturk.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.42_0_e___platformturk.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.hellas_sat_2__39_0e_.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.39_0_e___dolce_tv.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.39_0_e___bulsatcom.tv
@@ -80,7 +81,6 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.7_0_e___digit_rk.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.___astra_4a_4_8e__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.4_8_e___viasat.tv
-#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.4_8_e___visiontv.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.__intelsat_thor_0_8w__.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.0_8_w___canal_digital_nordic.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.0_8_w___upc_direct.tv
@@ -108,3 +108,4 @@
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.http___listassorys_com_.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.tdt.tv
 #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.iptv_tdt.tv
+#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquet.iptv_latinos.tv
