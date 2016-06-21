@@ -1,27 +1,23 @@
 #NAME ADULTOS
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:rtmp%3a//main2sb.everyon.tv%3a1935/etv2sb/_definst_/phd10499:Spice Tv
+#DESCRIPTION Spice Tv
+#SERVICE 1:0:1:3:0:0:0:0:0:0:http%3a//178.46.154.106%3a8000/play/a01x:FLTV
+#DESCRIPTION FLTV
+#SERVICE 1:0:1:1:0:0:0:0:0:0:http%3a//178.46.154.106%3a8000/play/a00h:Brazzers TV
+#DESCRIPTION Brazzers TV
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//k4.usastreams.com%3a1935/miamitv/smil%3amiamitv/playlist.m3u8:Miami TV
+#DESCRIPTION Miami TV
 #SERVICE 1:64:44:0:0:0:0:0:0:0:
-#DESCRIPTION :::::IPTV ADULTO:::
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//publish.thewebstream.co%3a1935/leved/_definst_/passielivestream/playlist.m3u8:PASSION XXX
-#DESCRIPTION PASSION XXX
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//5.135.139.145%3a80/HustlerTV/mono.m3u8:HustlerTV
-#DESCRIPTION HustlerTV
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//5.135.139.145%3a80/Eroxxx_HD/mono.m3u8:Eroxxx_HD
-#DESCRIPTION Eroxxx_HD
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//5.135.139.145%3a80/Private_TV/mono.m3u8:Private
-#DESCRIPTION Private
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//5.152.199.130/iptv/2A58VZ6Q2V/147/index.m3u8:Russian night
-#DESCRIPTION Russian night
-#SERVICE 1:64:45:0:0:0:0:0:0:0:
 #DESCRIPTION ————  Canal+ (Hispasat)  ————
-#SERVICE 1:0:1:63:1:31:ce40000:0:0:0:
+#SERVICE 1:0:1:63:1:31:fed40000:0:0:0:
 #SERVICE 1:0:1:7a:8:31:ce40000:0:0:0:
-#SERVICE 1:64:46:0:0:0:0:0:0:0:
+#SERVICE 1:64:45:0:0:0:0:0:0:0:
 #DESCRIPTION ————  Meo  ————
-#SERVICE 1:0:19:527:67:53:fed40000:0:0:0:
-#SERVICE 1:0:19:171:67:53:fed40000:0:0:0:
-#SERVICE 1:0:19:d5:66:53:fed40000:0:0:0:
-#SERVICE 1:0:19:139a:30:36:fed40000:0:0:0:
-#SERVICE 1:0:19:cb:66:53:fed40000:0:0:0:
-#SERVICE 1:64:47:0:0:0:0:0:0:0:
+#SERVICE 1:0:1:527:67:53:fed40000:0:0:0:
+#SERVICE 1:0:1:d5:66:53:fed40000:0:0:0:
+#SERVICE 1:0:1:139a:30:36:fed40000:0:0:0:
+#SERVICE 1:0:1:cb:66:53:fed40000:0:0:0:
+#SERVICE 1:64:46:0:0:0:0:0:0:0:
 #DESCRIPTION ————  Zon  ————
-#SERVICE 1:0:19:f9:30:36:fed40000:0:0:0:
+#SERVICE 1:0:1:171:67:53:fed40000:0:0:0:
+#SERVICE 1:0:1:f9:30:36:fed40000:0:0:0:
