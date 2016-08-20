@@ -91,3 +91,5 @@
 #DESCRIPTION Ferrol
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//directe.tvbadalona.cat/live/myStream.sdp:Tele Badalona
 #DESCRIPTION Tele Badalona
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//teledifusion.tv%3a1935/rtvcetv/rtvcetvlive/playlist.m3u8:RTVCEUTA
+#DESCRIPTION RTVCEUTA

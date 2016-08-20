@@ -21,6 +21,8 @@
 #DESCRIPTION EnglishClub
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//xtvncanalecx.api.channel.livestream.com/3.0/playlist.m3u8:TVN
 #DESCRIPTION TVN
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//stream12.rai.it/live/rai5.smil/master.m3u8:RAI 5
+#DESCRIPTION RAI 5
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_250.sdp/playlist.m3u8:CARTOON NETWORK
 #DESCRIPTION CARTOON NETWORK
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//209.126.106.202%3a8080/cbee/index.m3u8:CBEEBIES
