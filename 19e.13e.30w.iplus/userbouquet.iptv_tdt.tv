@@ -1,24 +1,34 @@
 #NAME IPTV TDT
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//iphonelive.rtve.es/LA1_LV3_IPH/bitrate_2.m3u8:La 1
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//stream.zetatv.cf/pw/tve1_b0bqgib/chunklist.m3u8:La 1
 #DESCRIPTION La 1
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//iphonelive.rtve.es/LA2_LV3_IPH/bitrate_2.m3u8:La 2
 #DESCRIPTION La 2
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8:Antena 3
 #DESCRIPTION Antena 3
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//mediasethls-lh.akamaihd.net/i/mitele/cuatro_ng@393134/index_700_av-p.m3u8:Cuatro
+#DESCRIPTION Cuatro
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//mediasethls-lh.akamaihd.net/i/mitele/telecinco_ng@393132/index_700_av-p.m3u8:Telecinco
+#DESCRIPTION Telecinco
 #SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8:La Sexta
 #DESCRIPTION La Sexta
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8:Atres3Series
-#DESCRIPTION Atres3Series
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8:Mega
 #DESCRIPTION Mega
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//canalesvip.ml/forocable/kuates.m3u8:FDF
-#DESCRIPTION FDF
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8:Neox
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//stream.zetatv.cf/pw/neox_alwkw2n/chunklist.m3u8:Neox
 #DESCRIPTION Neox
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8:Nova
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//stream.zetatv.cf/pw/nova2_acolsfq/chunklist.m3u8:Nova
 #DESCRIPTION Nova
 #SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//hlslive.rtve.es/TDP_LV3_IPH/bitrate_2.m3u8:TeleDeporte
 #DESCRIPTION TeleDeporte
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//mediasethls-lh.akamaihd.net/i/mitele/bemad_g@320708/index_500_av-b.m3u8:BE MAD
+#DESCRIPTION BE MAD
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//stream.zetatv.cf/pw/ten_azj987s/chunklist.m3u8:TEN
+#DESCRIPTION TEN
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//stream.zetatv.cf/pw/fdfhd_xrewtt/chunklist.m3u8:FDF
+#DESCRIPTION FDF
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//stream.zetatv.cf/pw/energy_azhls60/chunklist.m3u8:ENERGY
+#DESCRIPTION ENERGY
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//stream.zetatv.cf/pw/diniiiii_9fil4ag/chunklist.m3u8:DIVINITY
+#DESCRIPTION DIVINITY
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/master.m3u8:RealMadridTV
 #DESCRIPTION RealMadridTV
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//mediasethls-lh.akamaihd.net/i/mitele/8tv_ng@393131/index_500_av-p.m3u8:8tv

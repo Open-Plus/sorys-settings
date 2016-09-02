@@ -309,6 +309,9 @@ transponders
 00c00000:0456:0001
 	s 12581000:22000000:1:2:192:2:0:1:2:0:2
 /
+00c0b17d:045b:0001
+	s 12669000:22000000:1:2:192:2:0:1:2:0:2
+/
 fed40000:0027:0036
 	s 12399000:27500000:0:3:-300:2:0:1:2:2:0
 /
@@ -378,6 +381,9 @@ fed4acf6:0065:0000
 fed40000:0069:0053
 	s 12283000:27500000:0:3:-300:2:0:1:2:2:2
 /
+0ce42cef:0001:0001
+	s 11503000:1667000:0:9:-300:2:0:1:0:0
+/
 eeee0000:03e8:22d4
 	t 762000000:0:5:5:3:2:4:4:2:0:0:0
 /
@@ -396,14 +402,14 @@ eeee0000:9c40:22d4
 eeee0000:0012:22d4
 	t 594000000:0:6:6:3:2:4:4:2:0:0:0
 /
-eeee0000:000e:22d4
-	t 490000000:0:5:5:3:2:4:4:2:0:0:0
-/
 eeee0000:000f:22d4
 	t 634000000:0:6:6:3:2:4:4:2:0:0:0
 /
 eeee0000:0010:22d4
 	t 658000000:0:6:6:3:2:4:4:2:0:0:0
+/
+eeee0000:000e:22d4
+	t 770000000:0:6:6:3:2:4:4:2:0:0:0
 /
 end
 services
@@ -431,9 +437,9 @@ p:Movistar+ (Astra),c:0000a0,c:010050,c:0300a0
 7857:00c00000:041a:0001:25:34
 M.COMEDIA HD
 p:Movistar+ (Astra),c:0000a1,c:010056,c:0300a1
-7859:00c00000:041a:0001:25:52
+7859:00c00000:041a:0001:25:64
 LALIGATV BAR
-p:Movistar+ (Astra),c:0000a2,c:01005e,c:0300a2
+p:Movistar+ (Astra),c:0000a2,c:01005c,c:0300a2
 7863:00c00000:041a:0001:25:1
 LA 1 HD
 p:Movistar+ (Astra),c:0000ab,c:010092,c:0300ab
@@ -443,7 +449,7 @@ p:Movistar+ (Astra),c:0000a8,c:010080,c:0300a8
 7861:00c00000:041a:0001:25:51
 BEIN MAX 1
 p:Movistar+ (Astra),c:0000aa,c:01008c,c:0300aa
-7864:00c00000:041a:0001:25:185
+7864:00c00000:041a:0001:25:52
 BEIN MAX 2
 p:Movistar+ (Astra),c:0000ac,c:010096,c:0300ac
 749d:00c00000:041c:0001:1:41
@@ -477,7 +483,7 @@ p:Movistar+ (Astra),c:0000a9,c:010074,c:0300a9
 EUROSPORT 1
 p:Movistar+ (Astra),c:0000a8,c:010070,c:0300a8
 74a4:00c00000:041c:0001:1:57
-MOVISTAR F1
+M.FORMULA1
 p:Movistar+ (Astra)
 5273:00c00000:041d:0001:25:36
 NICKELODEON HD
@@ -512,7 +518,7 @@ p:Movistar+ (Astra),c:0000ac,c:010052,c:0300ac
 7694:00c00000:041e:0001:1:30
 MULTICINE
 p:Movistar+ (Astra),c:0000a5,c:010064,c:0300a5
-7692:00c00000:041e:0001:1:64
+7692:00c00000:041e:0001:1:44
 MULTIDEPORTE
 p:Movistar+ (Astra),c:0000ac,c:010052,c:0300ac
 768e:00c00000:041e:0001:1:160
@@ -548,8 +554,8 @@ p:Movistar+ (Astra),c:0000a6,c:010069,c:0300a6
 769e:00c00000:041e:0001:1:190
 BEIN MAX 7
 p:Movistar+ (Astra),c:000fa0,c:010fa1,c:030fa0
-7690:00c00000:041e:0001:1:180
-BEINLALIGA3
+7690:00c00000:041e:0001:1:185
+BEINLALIGA8
 p:Movistar+ (Astra),c:0000ab,c:01007c,c:020041,c:0300ab
 7693:00c00000:041e:0001:1:196
 MULTIDEP.5
@@ -596,12 +602,12 @@ p:Movistar+ (Astra),c:0000a5,c:01006e,c:020030,c:0300a5
 750d:00c00000:0420:0001:25:238
 HOLLYWOODHD
 p:Movistar+ (Astra),c:0000a5,c:01006e,c:020030,c:0300a5
-750e:00c00000:0420:0001:25:186
-BEIN MAX 3
-p:Movistar+ (Astra),c:0000a6,c:010074,c:0300a6
 750f:00c00000:0420:0001:25:47
 BEIN LALIGA
 p:Movistar+ (Astra),c:0000a7,c:010078,c:0300a7
+7507:00c00000:0420:0001:100:184
+
+p:DVB-S2 8PSK 10817V 19.2°E
 ef10:00c00000:0421:0001:25:70
 RTL HD
 p:HD +,c:0000ff,c:010103,c:020020,c:0300ff
@@ -845,16 +851,13 @@ p:Movistar+ (Astra),c:0000a6,c:010068,c:0300a6
 7573:00c00000:0412:0001:1:194
 MULTIDEP.3
 p:Movistar+ (Astra),c:000fa0,c:010fa1,c:030fa0
-7574:00c00000:0412:0001:1:197
-MULTIDEP.6
-p:Movistar+ (Astra),c:000faa,c:010fab,c:030faa
 7576:00c00000:0412:0001:1:191
 BEIN MAX 8
 p:Movistar+ (Astra),c:000fbe,c:010fbf,c:030fbe
 7575:00c00000:0412:0001:1:195
 MULTIDEP.4
 p:Movistar+ (Astra),c:000fe6,c:010fe7,c:030fe6
-757a:00c00000:0412:0001:1:185
+757a:00c00000:0412:0001:1:52
 BEIN MAX 2
 p:Movistar+ (Astra),c:000ff0,c:010ff1,c:030ff0
 756e:00c00000:0412:0001:1:184
@@ -884,12 +887,15 @@ p:Movistar+ (Astra)
 7580:00c00000:0412:0001:1:49
 BEINLALIGA2
 p:Movistar+ (Astra)
-7581:00c00000:0412:0001:1:44
-C+ LIGA
+7581:00c00000:0412:0001:1:180
+BEINLALIGA3
 p:Movistar+ (Astra)
 757b:00c00000:0412:0001:1:50
 BEIN SPORTS
 p:Movistar+ (Astra)
+7574:00c00000:0412:0001:0:0
+
+p:
 7883:00c00000:0414:0001:25:15
 TNT HD
 p:Movistar+ (Astra),c:0000a1,c:010056,c:0300a1
@@ -1326,7 +1332,7 @@ p:SKY,c:0002ff,c:010303,c:020020,c:0302ff
 E! Entertainm. HD
 p:SKY,c:0000ff,c:010103,c:020020,c:0300ff
 0102:00c00000:000e:0085:25:0
-Sky Sport HD 11
+Sky Sport 11 HD
 p:SKY,c:000cff,c:010d02,c:020020,c:030cff
 0065:00c00000:000e:0085:25:0
 Universal HD
@@ -1335,22 +1341,22 @@ p:SKY,c:0005ff,c:010603,c:0305ff
 Eurosport360HD 9
 p:SKY,c:000eff,c:010f03,c:020020,c:030eff
 0101:00c00000:000e:0085:25:0
-Sky Bundesliga HD 10
+Sky Sport Bundesliga 10 HD
 p:SKY
 013d:00c00000:000e:0085:25:0
-Sky Bundesliga HD 7
+Sky Sport Bundesliga 7 HD
 p:SKY,C:1861
 013e:00c00000:000e:0085:25:0
-Sky Sport HD 8
+Sky Sport 8 HD
 p:SKY,C:1861
 0140:00c00000:000e:0085:25:1
 Eurosport360HD 6
 p:SKY,C:1861
 0147:00c00000:000e:0085:25:2
-Sky Bundesliga HD 8
+Sky Sport Bundesliga 8 HD
 p:SKY,C:1861
 0148:00c00000:000e:0085:25:3
-Sky Sport HD 9
+Sky Sport 9 HD
 p:SKY,C:1861
 014a:00c00000:000e:0085:25:4
 Eurosport360HD 7
@@ -1371,10 +1377,10 @@ p:Sky Deutschland,c:0004ff,c:010503,c:0304ff
 Sky Cinema HD
 p:SKY,c:0004ff,c:010503,c:020020,c:0304ff
 0081:00c00000:0006:0085:25:435
-Sky Sports HD 1
+Sky Sport 1 HD
 p:SKY,c:0002ff,c:010303,c:020020,c:0302ff
 010c:00c00000:0006:0085:25:0
-Sky Sport HD 3
+Sky Sport 3 HD
 p:SKY,c:0008ff,c:010902,c:020020,c:0308ff
 0076:00c00000:0006:0085:25:0
 NatGeo Wild HD
@@ -1386,7 +1392,7 @@ p:SKY,c:0003ff,c:010403,c:020020,c:0303ff
 Eurosport360 HD 1
 p:SKY,c:000eff,c:010f03,c:020020,c:030eff
 010b:00c00000:0006:0085:25:0
-Sky Bundesliga HD 2
+Sky Sport Bundesliga 2 HD
 p:SKY,c:0007ff,c:010802,c:020020,c:0307ff
 0195:00c00000:0006:0085:25:0
 TNT Film (TCM)
@@ -1425,19 +1431,19 @@ p:SKY,c:0002ff,c:010303,c:020020,c:0302ff
 Disney Cinemagic HD
 p:SKY,c:0000ff,c:010103,c:020020,c:0300ff
 0072:00c00000:000d:0085:25:471
-Sky Sport HD 2
+Sky Sport 2 HD
 p:SKY,c:0003ff,c:010403,c:020020,c:0303ff
 0070:00c00000:000d:0085:25:469
 NatGeo HD
 p:SKY,c:0001ff,c:010203,c:020020,c:0301ff
 0116:00c00000:000d:0085:25:0
-Sky Sport HD 4
+Sky Sport 4 HD
 p:SKY,c:0008ff,c:010902,c:020020,c:0308ff
 0118:00c00000:000d:0085:25:0
 Eurosport360 HD 2
 p:SKY,c:000eff,c:010f03,c:020020,c:030eff
 0115:00c00000:000d:0085:25:0
-Sky Bundesliga HD 3
+Sky Sport Bundesliga 3 HD
 p:SKY,c:0007ff,c:010802,c:020020,c:0307ff
 2261:00c00000:0438:0001:25:472
 CANAL+
@@ -1665,19 +1671,19 @@ p:Kabelkiosk,c:0004ff,c:010503,c:020020,c:0304ff
 SyFy HD
 p:Kabelkiosk,c:0001ff,c:010203,c:020020,c:0301ff
 0069:00c00000:000c:0085:25:626
-Sky Bundesliga HD 1
+Sky Sport Bundesliga 1 HD
 p:Kabelkiosk,c:0000ff,c:010102,c:020020,c:0300ff
 006c:00c00000:000c:0085:25:629
 Sky Sport News HD
 p:Sky Deutschland,c:0003ff,c:010403,c:020020,c:0303ff
 0120:00c00000:000c:0085:25:0
-Sky Sport HD 5
+Sky Sport 5 HD
 p:Kabelkiosk,c:0008ff,c:010902,c:020020,c:0308ff
 0122:00c00000:000c:0085:25:0
 Eurosport360 HD 3
 p:Kabelkiosk,c:000eff,c:010f03,c:020020,c:030eff
 011f:00c00000:000c:0085:25:0
-Sky Bundesliga HD 4
+Sky Sport Bundesliga 4 HD
 p:Kabelkiosk,c:0007ff,c:010802,c:020020,c:0307ff
 007b:00c00000:000b:0085:25:0
 TNT Serie HD
@@ -1695,13 +1701,13 @@ p:Kabelkiosk,c:0001ff,c:010203,c:020020,c:0301ff
 History HD
 p:Kabelkiosk,c:0002ff,c:010303,c:020020,c:0302ff
 012a:00c00000:000b:0085:25:0
-Sky Sport HD 6
+Sky Sport 6 HD
 p:Kabelkiosk,c:0008ff,c:010902,c:020020,c:0308ff
 012c:00c00000:000b:0085:25:0
 Eurosport360 HD 4
 p:Kabelkiosk,c:000eff,c:010f03,c:020020,c:030eff
 0129:00c00000:000b:0085:25:0
-Sky Bundesliga HD 5
+Sky Sport Bundesliga 5 HD
 p:Kabelkiosk,c:0007ff,c:010802,c:020020,c:0307ff
 196a:00c00000:044e:0001:25:672
 OCS MAX
@@ -1965,7 +1971,7 @@ p:HD +,c:0003ff,c:010403,c:0303ff
 AXN HD
 p:SKY,c:0000ff,c:010103,c:020020,c:0300ff
 0133:00c00000:000a:0085:25:0
-Sky Bundesliga HD 6
+Sky Sport Bundesliga 6 HD
 p:SKY,c:0007ff,c:010802,c:020020,c:0307ff
 0077:00c00000:000a:0085:25:0
 Sport1 US HD
@@ -1977,13 +1983,13 @@ p:SKY,c:0002ff,c:010303,c:020020,c:0302ff
 Fox HD 
 p:SKY,c:0003ff,c:010403,c:020020,c:0303ff
 0066:00c00000:000a:0085:25:0
-Sky HD FanZone
+Sky Sport Fanzone HD
 p:SKY,c:0004ff,c:010501,c:020020,c:0304ff
 0134:00c00000:000a:0085:25:0
-Sky Sport HD 7
+Sky Sport 7 HD
 p:SKY,c:0008ff,c:010902,c:020020,c:0308ff
 0152:00c00000:000a:0085:25:0
-Sky Sport HD 10
+Sky Sport 10 HD
 p:SKY,c:000aff,c:010b02,c:020020,c:030aff
 0136:00c00000:000a:0085:25:0
 Eurosport360 HD 5
@@ -1995,7 +2001,7 @@ p:SKY,c:000dff,c:010e03,c:020020,c:030dff
 Sport1 US HD1
 p:SKY
 0151:00c00000:000a:0085:25:0
-Sky Bundesliga HD 9
+Sky Sport Bundesliga 9 HD
 p:SKY
 2e9b:00c00000:0411:0001:25:813
 SUPER RTL HD
@@ -2192,12 +2198,9 @@ p:CNN,c:0000a5,c:010064,c:0300a5
 1158:00c00000:0404:0001:1:117
 Al Jazeera English
 p:Al Jazeera
-114e:00c00000:0404:0001:1:0
+114e:00c00000:0404:0001:1:126
 DW
 p:DW
-1153:00c00000:0404:0001:1:0
-DW (Arabia 2)
-p:Deutsche Welle
 1072:00c00000:03ee:0001:1:0
 RAI HD
 p:Telespazio,c:000712,c:010713,c:030712
@@ -2442,7 +2445,7 @@ p:CSAT
 SUNDANCE TV
 p:CSAT,c:00038e,c:010399,c:03038e
 7531:00c00000:0426:0001:25:57
-MOVISTARF1HD
+M.FORMULA1HD
 p:Movistar+ (Astra),c:0000a0,c:010050,c:0300a0
 7532:00c00000:0426:0001:25:58
 M.MOTOGPHD
@@ -2461,7 +2464,7 @@ LA SEXTA HD
 p:Movistar+ (Astra),c:0000a6,c:010074,c:0300a6
 7533:00c00000:0426:0001:25:19
 AMC HD
-p:Movistar+ (Astra),c:0000a2,c:01005d,c:02002a,c:0300a2,c:050001,C:1810
+p:Movistar+ (Astra),c:0000a2,c:01005c,c:02002a,c:0300a2,c:050001,C:1810
 6f47:00c00000:0445:0001:1:0
 ARD-alpha
 p:ARD
@@ -2541,7 +2544,7 @@ p:SKY,c:0007ff,c:010800,c:020020,c:0307ff
 Sky Select 3
 p:SKY,c:0009ff,c:010a00,c:0309ff
 0110:00c00000:0003:0085:25:0
-Sky Bundesliga 3
+Sky Sport Bundesliga 3
 p:SKY,c:0006ff,c:010700,c:020020,c:0306ff
 0111:00c00000:0003:0085:25:0
 Sky Sport 4
@@ -2550,7 +2553,7 @@ p:SKY,c:0010ff,c:011100,c:020020,c:0310ff
 Sky Select 4
 p:SKY,c:000aff,c:010b00,c:030aff
 011a:00c00000:0003:0085:25:0
-Sky Bundesliga 4
+Sky Sport Bundesliga 4
 p:SKY,c:0007ff,c:010800,c:020020,c:0307ff
 011b:00c00000:0003:0085:25:0
 Sky Sport 5
@@ -2559,7 +2562,7 @@ p:SKY,c:0011ff,c:011200,c:020020,c:0311ff
 Sky Select 5
 p:SKY,c:000bff,c:010c00,c:030bff
 0124:00c00000:0003:0085:25:0
-Sky Bundesliga 5
+Sky Sport Bundesliga 5
 p:SKY,c:0008ff,c:010900,c:020020,c:0308ff
 0125:00c00000:0003:0085:25:0
 Sky Sport 6
@@ -2568,7 +2571,7 @@ p:SKY,c:000eff,c:010f00,c:020020,c:030eff
 Sky Select 6
 p:SKY,c:0002ff,c:010300,c:0302ff
 012e:00c00000:0003:0085:25:0
-Sky Bundesliga 6
+Sky Sport Bundesliga 6
 p:SKY,c:000cff,c:010d00,c:020020,c:030cff
 012f:00c00000:0003:0085:25:0
 Sky Sport 7
@@ -2577,7 +2580,7 @@ p:SKY,c:000dff,c:010e00,c:020020,c:030dff
 Sky Sport 3
 p:SKY,C:1861
 0106:00c00000:0003:0085:25:0
-Sky Bundesliga 2
+Sky Sport Bundesliga 2
 p:SKY,C:1861
 000b:00c00000:0003:0085:25:0
 Sky Cinema+1
@@ -2598,7 +2601,7 @@ p:SKY,c:0019ff,c:011a00,c:0319ff
 Sky Select 2
 p:SKY,c:0009ff,c:010a00,c:0309ff
 00fc:00c00000:0003:0085:25:0
-Sky Bundesliga 10
+Sky Sport Bundesliga 10
 p:SKY,C:1861
 00fd:00c00000:0003:0085:25:1
 Sky Sport 11
@@ -2634,7 +2637,7 @@ p:SKY,c:0009ff,c:010a00,c:020020,c:0309ff
 Sky Select 7
 p:SKY,c:000bff,c:010c00,c:030bff
 0138:00c00000:0002:0085:25:0
-Sky Bundesliga 7
+Sky Sport Bundesliga 7
 p:SKY,c:0010ff,c:011100,c:020020,c:0310ff
 0139:00c00000:0002:0085:25:0
 Sky Sport 8
@@ -2643,7 +2646,7 @@ p:SKY,c:000eff,c:010f00,c:020020,c:030eff
 Sky Select 8
 p:SKY,c:000cff,c:010d00,c:030cff
 0142:00c00000:0002:0085:25:0
-Sky Bundesliga 8
+Sky Sport Bundesliga 8
 p:SKY,c:0011ff,c:011200,c:020020,c:0311ff
 0143:00c00000:0002:0085:25:0
 Sky Sport 9
@@ -2652,7 +2655,7 @@ p:SKY,c:0008ff,c:010900,c:020020,c:0308ff
 Sky Select 9
 p:SKY,c:000dff,c:010e00,c:030dff
 014c:00c00000:0002:0085:25:0
-Sky Bundesliga 9
+Sky Sport Bundesliga 9
 p:SKY,c:0012ff,c:011300,c:020020,c:0312ff
 014d:00c00000:0002:0085:25:0
 Sky Sport 10
@@ -2709,7 +2712,7 @@ p:SKY,c:0003ff,c:010400,c:020020,c:0303ff
 Sky Sport 1
 p:SKY,c:0007ff,c:010800,c:020020,c:0307ff
 00df:00c00000:0004:0085:25:0
-Sky Bundesliga 1
+Sky Sport Bundesliga 1
 p:SKY,c:0002ff,c:010300,c:020021,c:0302ff
 0191:00c00000:0004:0085:25:0
 Jukebox
@@ -2859,10 +2862,10 @@ p:CSAT,c:0002c6,c:0102d1,c:0302c6
 COLMAX TV
 p:CSAT
 22c5:00c00000:0434:0001:25:0
-E! HD
+E!
 p:CSAT,c:00006e,c:010079,c:03006e
 22c6:00c00000:0434:0001:25:0
-LA CHAINE METEO HD
+LA CHAINE METEO
 p:CSAT,c:0000d2,c:0100dd,c:0300d2
 22c7:00c00000:0434:0001:25:0
 JUNE
@@ -2978,12 +2981,36 @@ p:SES,c:0001ff,c:010200,c:0301ff
 11bc:00c00000:0406:0001:25:0
 Service 4540
 p:SES,c:000aff,c:010b00,c:030aff
-00c7:00c00000:0010:0085:31:0
-.DarkStar
-p:SKY,f:0040,C:1861
+00c7:00c00000:0010:0085:25:0
+DarkStar
+p:SKY,c:0000ff,c:010100,c:0300ff
 03e9:00c00000:0456:0001:31:0
 Canal+ UHD
 p:Canal+
+332d:00c0b17d:045b:0001:25:0
+ORF III
+p:Austriasat,c:0003f2,c:0103f3,c:0203f5,c:0303f2
+332e:00c0b17d:045b:0001:25:0
+RTL Nitro Austria
+p:RTL,c:0003fc,c:0103fd,c:020401,c:0303fc
+332f:00c0b17d:045b:0001:25:0
+Welt der Wunder
+p:-,c:000406,c:010407,c:030406
+3330:00c0b17d:045b:0001:25:0
+LT1
+p:,c:000410,c:010411,c:030410
+3332:00c0b17d:045b:0001:25:0
+Sixx Austria
+p:sevenonemedia,c:000424,c:010425,c:020427,c:030424
+3336:00c0b17d:045b:0001:25:0
+Servus TV Deutschland
+p:ServusTV,c:000456,c:010457,c:02045b,c:030456
+3337:00c0b17d:045b:0001:25:0
+Servus TV
+p:Austriasat,c:00083e,c:01083f,c:020843,c:03083e
+3355:00c0b17d:045b:0001:25:0
+BTV (Austria)
+p:,c:00096a,c:01096b,c:03096a
 0199:fed40000:0027:0036:1:0
 Eurosport HD
 p:Nos,c:001040,c:011051,c:031040
@@ -3245,9 +3272,6 @@ p:Movistar+ (Hispasat),c:0000a6,c:010068,c:0300a6
 00c0:0ce40000:0006:0031:1:207
 MULTIDEP.3
 p:Movistar+ (Hispasat),c:000fa0,c:010fa1,c:030fa0
-00c3:0ce40000:0006:0031:1:208
-MULTIDEP.6
-p:Movistar+ (Hispasat),c:000faa,c:010fab,c:030faa
 00c4:0ce40000:0006:0031:1:209
 BEIN MAX 8
 p:Movistar+ (Hispasat),c:000fbe,c:010fbf,c:030fbe
@@ -3267,7 +3291,7 @@ p:Movistar+ (Hispasat)
 MULTIFUT. 3
 p:Movistar+ (Hispasat)
 0c6e:0ce40000:0006:0031:1:2
-MULTIFUT. 4
+BEINLALIGA5
 p:Movistar+ (Hispasat)
 0c6f:0ce40000:0006:0031:1:3
 BEINLALIGA6
@@ -3288,7 +3312,7 @@ p:Movistar+ (Hispasat)
 BEIN SPORTS
 p:Movistar+ (Hispasat)
 0c84:0ce40000:0006:0031:1:0
-C+ LIGA
+BEINLALIGA3
 p:Movistar+ (Hispasat)
 138a:0ce40000:000d:0028:1:293
 RT esp
@@ -3393,10 +3417,10 @@ p:Movistar+ (Hispasat),c:0000a6,c:010069,c:0300a6
 BEIN MAX 7
 p:Movistar+ (Hispasat),c:000fa0,c:010fa1,c:030fa0
 0c80:0ce40000:0008:0031:1:0
-BEINLALIGA3
+BEINLALIGA8
 p:Movistar+ (Hispasat)
 0c81:0ce40000:0008:0031:1:1
-BEINLALIGA5
+MULTIFUT. 4
 p:Movistar+ (Hispasat)
 0c82:0ce40000:0008:0031:1:2
 MULTIDEP.5
@@ -3406,6 +3430,9 @@ MULTIFUT. 1
 p:Movistar+ (Hispasat)
 0cb3:0ce40000:0008:0031:1:0
 BEIN MAX 1
+p:Movistar+ (Hispasat)
+0c85:0ce40000:0008:0031:1:0
+LALIGATVBAR1
 p:Movistar+ (Hispasat)
 0014:fed40000:0001:0031:1:335
 CALLE 13
@@ -3485,9 +3512,6 @@ p:Movistar+ (Hispasat)
 03b3:fed40000:002f:0036:1:366
 TVCine 1 HD
 p:Nos,c:0019a0,c:0119a1,c:0319a0
-03b0:fed40000:002f:0036:1:363
-MOV HD
-p:Nos,c:001970,c:011971,c:031970
 0327:fed40000:002f:0036:1:0
 Discovery HD Showcase
 p:Nos,c:0019f2,c:0119f3,c:0319f2
@@ -3593,9 +3617,6 @@ p:Nos,c:001450,c:011451,c:021452,c:031450
 02c4:0ce40000:0024:0036:1:0
 Canal Panda
 p:Nos,c:001470,c:011471,c:031470
-006a:0ce40000:0024:0036:1:0
-BTV 2
-p:Nos,c:001490,c:011491,c:031490
 0069:0ce40000:0024:0036:1:0
 BTV 1
 p:Nos,c:001480,c:011481,c:031480
@@ -3632,9 +3653,6 @@ p:Meo,c:0012b1,c:0312b1
 00d6:fed40000:0066:0053:1:0
 TVCine 1
 p:Meo,c:001269,c:01126a,c:031269
-00e4:fed40000:0066:0053:1:0
-Económico TV_OLD
-p:Meo,c:0012d9,c:0112da,c:0312d9
 00e5:fed40000:0066:0053:1:0
 Trace TV
 p:Meo,c:0012e1,c:0112e2,c:0312e1
@@ -3668,9 +3686,6 @@ p:Meo,c:001261,c:011262,c:031261
 00d8:fed40000:0066:0053:1:0
 TV Séries
 p:Meo,c:001279,c:01127a,c:031279
-00cf:fed40000:0066:0053:1:0
-Canção Nova_OLD
-p:Meo,c:001231,c:011232,c:031231
 00ce:fed40000:0066:0053:1:0
 MCS Extreme
 p:
@@ -3692,9 +3707,6 @@ p:Meo,c:001409,c:01140a,c:031409
 0523:fed40000:0067:0053:1:0
 Canal Q
 p:Meo,c:001791,c:011792,c:031791
-013b:fed40000:0067:0053:1:0
-Afro Music_OLD
-p:Meo,c:001471,c:011472,c:031471
 0518:fed40000:0067:0053:1:0
 Cartoon Network
 p:Meo,c:001739,c:01173a,c:031739
@@ -3944,9 +3956,6 @@ p:Meo,c:001049,c:01104a,c:031049
 006f:0ce40000:0065:0053:1:0
 Benfica TV 2
 p:Meo,c:001051,c:011052,c:031051
-0068:0ce40000:0065:0053:1:0
-CMTV_OLD
-p:Meo,c:001019,c:01101a,c:031019
 0075:0ce40000:0065:0053:1:0
 AMC
 p:Meo,c:001081,c:011082,c:031081
@@ -4109,6 +4118,9 @@ p:
 01f7:fed40000:0069:0053:31:0
 SPORT TV 4K
 p:
+0001:0ce42cef:0001:0001:25:0
+Bom
+p:BOM,c:000101,c:010102,c:0304e9
 019e:eeee0000:03e8:22d4:25:0
 La 1 HD.
 p:RTVE
@@ -4121,18 +4133,21 @@ p:RTVE
 019c:eeee0000:03e8:22d4:1:0
 24h
 p:RTVE,c:0003e9,c:0103eb,c:0203ea,c:0303e9
+019b:eeee0000:03e8:22d4:1:0
+La 2
+p:RTVE
 07c1:eeee0000:0102:22d4:1:0
 1 CanalSur TV
 p:RTVA,c:00006e,c:010078,c:020082,c:03006e
 07c2:eeee0000:0102:22d4:1:0
 2 CanalSur 2 Andalucia
 p:RTVA
-07c6:eeee0000:0102:22d4:1:0
-EHS.TV
-p:
 07ca:eeee0000:0102:22d4:1:0
 3 Andalucia Television
 p:RTVA
+07c6:eeee0000:0102:22d4:1:0
+BOM
+p:Best Option Media
 139e:eeee0000:01f6:22d4:1:0
 8TV ALMERIA
 p:TL02AL-ALMERIA,c:0000d2,c:0100dc,c:0300d2
@@ -4172,54 +4187,54 @@ p:ATRESMEDIA
 0067:eeee0000:0012:22d4:25:0
 Realmadrid TV HD
 p:Realmadrid TV
+0096:eeee0000:000f:22d4:1:0
+antena3
+p:ATRESMEDIA
+0095:eeee0000:000f:22d4:25:1
+antena3 HD
+p:ATRESMEDIA
+0098:eeee0000:000f:22d4:1:2
+laSexta
+p:ATRESMEDIA
+0097:eeee0000:000f:22d4:25:3
+laSexta HD
+p:ATRESMEDIA
+0099:eeee0000:000f:22d4:1:4
+neox
+p:ATRESMEDIA
+009a:eeee0000:000f:22d4:1:5
+nova
+p:ATRESMEDIA
+00bb:eeee0000:0010:22d4:1:0
+Cuatro
+p:MEDIASET
+00bf:eeee0000:0010:22d4:25:1
+Cuatro HD
+p:MEDIASET
+00bd:eeee0000:0010:22d4:1:2
+Divinity
+p:MEDIASET
+00bc:eeee0000:0010:22d4:1:3
+FDF
+p:MEDIASET
+00ba:eeee0000:0010:22d4:1:4
+Telecinco
+p:MEDIASET
+00be:eeee0000:0010:22d4:25:5
+Telecinco HD
+p:MEDIASET
 0115:eeee0000:000e:22d4:1:0
 7Discovery MAX
 p:VEO TV
-0116:eeee0000:000e:22d4:1:1
-GOL
-p:Mediapro
-00c9:eeee0000:000e:22d4:1:2
+00c9:eeee0000:000e:22d4:1:0
 Disney Channel
 p:Disney Channel
-00ca:eeee0000:000e:22d4:1:3
+0116:eeee0000:000e:22d4:1:0
+GOL
+p:Mediapro
+00ca:eeee0000:000e:22d4:1:0
 PARAMOUNT CHANNEL
 p:PARAMOUNT CHANNEL
-0096:eeee0000:000f:22d4:1:0
-antena3
-p:ATRESMEDIA,f:0040
-0095:eeee0000:000f:22d4:25:1
-antena3 HD
-p:ATRESMEDIA,f:0040
-0098:eeee0000:000f:22d4:1:2
-laSexta
-p:ATRESMEDIA,f:0040
-0097:eeee0000:000f:22d4:25:3
-laSexta HD
-p:ATRESMEDIA,f:0040
-0099:eeee0000:000f:22d4:1:4
-neox
-p:ATRESMEDIA,f:0040
-009a:eeee0000:000f:22d4:1:5
-nova
-p:ATRESMEDIA,f:0040
-00bb:eeee0000:0010:22d4:1:0
-Cuatro
-p:MEDIASET,f:0040
-00bf:eeee0000:0010:22d4:25:1
-Cuatro HD
-p:MEDIASET,f:0040
-00bd:eeee0000:0010:22d4:1:2
-Divinity
-p:MEDIASET,f:0040
-00bc:eeee0000:0010:22d4:1:3
-FDF
-p:MEDIASET,f:0040
-00ba:eeee0000:0010:22d4:1:4
-Telecinco
-p:MEDIASET,f:0040
-00be:eeee0000:0010:22d4:25:5
-Telecinco HD
-p:MEDIASET,f:0040
 end
 Editor:DreamSet 2.4.8 - http://www.dreamset-editor.com
 Author:Sorys-linux Box

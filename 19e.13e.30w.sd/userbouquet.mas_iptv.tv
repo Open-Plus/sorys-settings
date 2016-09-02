@@ -7,8 +7,6 @@
 #DESCRIPTION Eurosport 1
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//213.81.153.241/live001/channel014_p2.stream/DVR.m3u8:Eurosport2
 #DESCRIPTION Eurosport2
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//kalseglive-a.akamaihd.net/dc-1/m/ny-live-publish4/kLive/smil%3a1_3j5azqiu_all.smil/playlist.m3u8:TyC Sport
-#DESCRIPTION TyC Sport
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//lsd360tvhls-lh.akamaihd.net/i/360TVHLS_1@197877/master.m3u8:360 DEPORTES
 #DESCRIPTION 360 DEPORTES
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//186.33.227.198/DXTV/smil%3aDXTV.smil/playlist.m3u8:DXTV
@@ -17,19 +15,13 @@
 #DESCRIPTION motorsport
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//208.92.36.158/ipad/live/nba_ipad_1240.m3u8:NBA TV
 #DESCRIPTION NBA TV
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//213.81.153.241/live001/channel020_p2.stream/DVR.m3u8:EnglishClub
-#DESCRIPTION EnglishClub
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//xtvncanalecx.api.channel.livestream.com/3.0/playlist.m3u8:TVN
 #DESCRIPTION TVN
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//stream12.rai.it/live/rai5.smil/master.m3u8:RAI 5
 #DESCRIPTION RAI 5
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_250.sdp/playlist.m3u8:CARTOON NETWORK
-#DESCRIPTION CARTOON NETWORK
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//209.126.106.202%3a8080/cbee/index.m3u8:CBEEBIES
-#DESCRIPTION CBEEBIES
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8:London Live
 #DESCRIPTION London Live
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//tva_chaine_uls-lh.akamaihd.net/i/chaine_tva_1@125892/master.m3u8:TVA Montreal
 #DESCRIPTION TVA Montreal
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:https%3a//glblvestu-f.akamaihd.net/i/glblvestu_1@78149/master.m3u8?__b__=900&hdnea=ip=99.18.68.202~st=1434303944~exp=1434304544~acl=/i/*~id=3f0edb02-c4e5-4596-8950-4331b8ce1baf~hmac=4acbecb511f7c3beaf085123ab9097c7a6acbd5d857fd4cefbfdfb733b666f57:Global Toronto
-#DESCRIPTION Global Toronto
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//87.106.219.140/live/myStream_2:Travel TV
+#DESCRIPTION Travel TV

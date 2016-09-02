@@ -69,6 +69,9 @@ fed4acf6:0065:0000
 fed40000:0069:0053
 	s 12283000:27500000:0:3:-300:2:0:1:2:2:2
 /
+0ce42cef:0001:0001
+	s 11503000:1667000:0:9:-300:2:0:1:0:0
+/
 eeee0000:03e8:22d4
 	t 762000000:0:5:5:3:2:4:4:2:0:0:0
 /
@@ -87,14 +90,14 @@ eeee0000:9c40:22d4
 eeee0000:0012:22d4
 	t 594000000:0:6:6:3:2:4:4:2:0:0:0
 /
-eeee0000:000e:22d4
-	t 490000000:0:5:5:3:2:4:4:2:0:0:0
-/
 eeee0000:000f:22d4
 	t 634000000:0:6:6:3:2:4:4:2:0:0:0
 /
 eeee0000:0010:22d4
 	t 658000000:0:6:6:3:2:4:4:2:0:0:0
+/
+eeee0000:000e:22d4
+	t 770000000:0:6:6:3:2:4:4:2:0:0:0
 /
 end
 services
@@ -359,9 +362,6 @@ p:Movistar+ (Hispasat),c:0000a6,c:010068,c:0300a6
 00c0:0ce40000:0006:0031:1:207
 MULTIDEP.3
 p:Movistar+ (Hispasat),c:000fa0,c:010fa1,c:030fa0
-00c3:0ce40000:0006:0031:1:208
-MULTIDEP.6
-p:Movistar+ (Hispasat),c:000faa,c:010fab,c:030faa
 00c4:0ce40000:0006:0031:1:209
 BEIN MAX 8
 p:Movistar+ (Hispasat),c:000fbe,c:010fbf,c:030fbe
@@ -381,7 +381,7 @@ p:Movistar+ (Hispasat)
 MULTIFUT. 3
 p:Movistar+ (Hispasat)
 0c6e:0ce40000:0006:0031:1:2
-MULTIFUT. 4
+BEINLALIGA5
 p:Movistar+ (Hispasat)
 0c6f:0ce40000:0006:0031:1:3
 BEINLALIGA6
@@ -402,7 +402,7 @@ p:Movistar+ (Hispasat)
 BEIN SPORTS
 p:Movistar+ (Hispasat)
 0c84:0ce40000:0006:0031:1:0
-C+ LIGA
+BEINLALIGA3
 p:Movistar+ (Hispasat)
 138a:0ce40000:000d:0028:1:293
 RT esp
@@ -507,10 +507,10 @@ p:Movistar+ (Hispasat),c:0000a6,c:010069,c:0300a6
 BEIN MAX 7
 p:Movistar+ (Hispasat),c:000fa0,c:010fa1,c:030fa0
 0c80:0ce40000:0008:0031:1:0
-BEINLALIGA3
+BEINLALIGA8
 p:Movistar+ (Hispasat)
 0c81:0ce40000:0008:0031:1:1
-BEINLALIGA5
+MULTIFUT. 4
 p:Movistar+ (Hispasat)
 0c82:0ce40000:0008:0031:1:2
 MULTIDEP.5
@@ -520,6 +520,9 @@ MULTIFUT. 1
 p:Movistar+ (Hispasat)
 0cb3:0ce40000:0008:0031:1:0
 BEIN MAX 1
+p:Movistar+ (Hispasat)
+0c85:0ce40000:0008:0031:1:0
+LALIGATVBAR1
 p:Movistar+ (Hispasat)
 0014:fed40000:0001:0031:1:335
 CALLE 13
@@ -599,9 +602,6 @@ p:Movistar+ (Hispasat)
 03b3:fed40000:002f:0036:1:366
 TVCine 1 HD
 p:Nos,c:0019a0,c:0119a1,c:0319a0
-03b0:fed40000:002f:0036:1:363
-MOV HD
-p:Nos,c:001970,c:011971,c:031970
 0327:fed40000:002f:0036:1:0
 Discovery HD Showcase
 p:Nos,c:0019f2,c:0119f3,c:0319f2
@@ -707,9 +707,6 @@ p:Nos,c:001450,c:011451,c:021452,c:031450
 02c4:0ce40000:0024:0036:1:0
 Canal Panda
 p:Nos,c:001470,c:011471,c:031470
-006a:0ce40000:0024:0036:1:0
-BTV 2
-p:Nos,c:001490,c:011491,c:031490
 0069:0ce40000:0024:0036:1:0
 BTV 1
 p:Nos,c:001480,c:011481,c:031480
@@ -746,9 +743,6 @@ p:Meo,c:0012b1,c:0312b1
 00d6:fed40000:0066:0053:1:0
 TVCine 1
 p:Meo,c:001269,c:01126a,c:031269
-00e4:fed40000:0066:0053:1:0
-Económico TV_OLD
-p:Meo,c:0012d9,c:0112da,c:0312d9
 00e5:fed40000:0066:0053:1:0
 Trace TV
 p:Meo,c:0012e1,c:0112e2,c:0312e1
@@ -782,9 +776,6 @@ p:Meo,c:001261,c:011262,c:031261
 00d8:fed40000:0066:0053:1:0
 TV Séries
 p:Meo,c:001279,c:01127a,c:031279
-00cf:fed40000:0066:0053:1:0
-Canção Nova_OLD
-p:Meo,c:001231,c:011232,c:031231
 00ce:fed40000:0066:0053:1:0
 MCS Extreme
 p:
@@ -806,9 +797,6 @@ p:Meo,c:001409,c:01140a,c:031409
 0523:fed40000:0067:0053:1:0
 Canal Q
 p:Meo,c:001791,c:011792,c:031791
-013b:fed40000:0067:0053:1:0
-Afro Music_OLD
-p:Meo,c:001471,c:011472,c:031471
 0518:fed40000:0067:0053:1:0
 Cartoon Network
 p:Meo,c:001739,c:01173a,c:031739
@@ -1058,9 +1046,6 @@ p:Meo,c:001049,c:01104a,c:031049
 006f:0ce40000:0065:0053:1:0
 Benfica TV 2
 p:Meo,c:001051,c:011052,c:031051
-0068:0ce40000:0065:0053:1:0
-CMTV_OLD
-p:Meo,c:001019,c:01101a,c:031019
 0075:0ce40000:0065:0053:1:0
 AMC
 p:Meo,c:001081,c:011082,c:031081
@@ -1223,6 +1208,9 @@ p:
 01f7:fed40000:0069:0053:31:0
 SPORT TV 4K
 p:
+0001:0ce42cef:0001:0001:25:0
+Bom
+p:BOM,c:000101,c:010102,c:0304e9
 019e:eeee0000:03e8:22d4:25:0
 La 1 HD.
 p:RTVE
@@ -1235,18 +1223,21 @@ p:RTVE
 019c:eeee0000:03e8:22d4:1:0
 24h
 p:RTVE,c:0003e9,c:0103eb,c:0203ea,c:0303e9
+019b:eeee0000:03e8:22d4:1:0
+La 2
+p:RTVE
 07c1:eeee0000:0102:22d4:1:0
 1 CanalSur TV
 p:RTVA,c:00006e,c:010078,c:020082,c:03006e
 07c2:eeee0000:0102:22d4:1:0
 2 CanalSur 2 Andalucia
 p:RTVA
-07c6:eeee0000:0102:22d4:1:0
-EHS.TV
-p:
 07ca:eeee0000:0102:22d4:1:0
 3 Andalucia Television
 p:RTVA
+07c6:eeee0000:0102:22d4:1:0
+BOM
+p:Best Option Media
 139e:eeee0000:01f6:22d4:1:0
 8TV ALMERIA
 p:TL02AL-ALMERIA,c:0000d2,c:0100dc,c:0300d2
@@ -1286,54 +1277,54 @@ p:ATRESMEDIA
 0067:eeee0000:0012:22d4:25:0
 Realmadrid TV HD
 p:Realmadrid TV
+0096:eeee0000:000f:22d4:1:0
+antena3
+p:ATRESMEDIA
+0095:eeee0000:000f:22d4:25:1
+antena3 HD
+p:ATRESMEDIA
+0098:eeee0000:000f:22d4:1:2
+laSexta
+p:ATRESMEDIA
+0097:eeee0000:000f:22d4:25:3
+laSexta HD
+p:ATRESMEDIA
+0099:eeee0000:000f:22d4:1:4
+neox
+p:ATRESMEDIA
+009a:eeee0000:000f:22d4:1:5
+nova
+p:ATRESMEDIA
+00bb:eeee0000:0010:22d4:1:0
+Cuatro
+p:MEDIASET
+00bf:eeee0000:0010:22d4:25:1
+Cuatro HD
+p:MEDIASET
+00bd:eeee0000:0010:22d4:1:2
+Divinity
+p:MEDIASET
+00bc:eeee0000:0010:22d4:1:3
+FDF
+p:MEDIASET
+00ba:eeee0000:0010:22d4:1:4
+Telecinco
+p:MEDIASET
+00be:eeee0000:0010:22d4:25:5
+Telecinco HD
+p:MEDIASET
 0115:eeee0000:000e:22d4:1:0
 7Discovery MAX
 p:VEO TV
-0116:eeee0000:000e:22d4:1:1
-GOL
-p:Mediapro
-00c9:eeee0000:000e:22d4:1:2
+00c9:eeee0000:000e:22d4:1:0
 Disney Channel
 p:Disney Channel
-00ca:eeee0000:000e:22d4:1:3
+0116:eeee0000:000e:22d4:1:0
+GOL
+p:Mediapro
+00ca:eeee0000:000e:22d4:1:0
 PARAMOUNT CHANNEL
 p:PARAMOUNT CHANNEL
-0096:eeee0000:000f:22d4:1:0
-antena3
-p:ATRESMEDIA,f:0040
-0095:eeee0000:000f:22d4:25:1
-antena3 HD
-p:ATRESMEDIA,f:0040
-0098:eeee0000:000f:22d4:1:2
-laSexta
-p:ATRESMEDIA,f:0040
-0097:eeee0000:000f:22d4:25:3
-laSexta HD
-p:ATRESMEDIA,f:0040
-0099:eeee0000:000f:22d4:1:4
-neox
-p:ATRESMEDIA,f:0040
-009a:eeee0000:000f:22d4:1:5
-nova
-p:ATRESMEDIA,f:0040
-00bb:eeee0000:0010:22d4:1:0
-Cuatro
-p:MEDIASET,f:0040
-00bf:eeee0000:0010:22d4:25:1
-Cuatro HD
-p:MEDIASET,f:0040
-00bd:eeee0000:0010:22d4:1:2
-Divinity
-p:MEDIASET,f:0040
-00bc:eeee0000:0010:22d4:1:3
-FDF
-p:MEDIASET,f:0040
-00ba:eeee0000:0010:22d4:1:4
-Telecinco
-p:MEDIASET,f:0040
-00be:eeee0000:0010:22d4:25:5
-Telecinco HD
-p:MEDIASET,f:0040
 end
 Editor:DreamSet 2.4.8 - http://www.dreamset-editor.com
 Author:Sorys-linux Box
