@@ -69,8 +69,11 @@ fed4acf6:0065:0000
 fed40000:0069:0053
 	s 12283000:27500000:0:3:-300:2:0:1:2:2:2
 /
-0ce42cef:0001:0001
-	s 11503000:1667000:0:9:-300:2:0:1:0:0
+fed42cef:0001:0001
+	s 11503000:1667000:0:9:-300:2:0:1:1:0:2
+/
+fed40000:03e8:03e9
+	s 11262000:30000000:0:3:-300:2:0:1:2:0:2
 /
 eeee0000:03e8:22d4
 	t 762000000:0:5:5:3:2:4:4:2:0:0:0
@@ -212,9 +215,6 @@ p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
 0067:0ce40000:0003:0031:1:0
 BBC WORLD
 p:Movistar+ (Hispasat),c:0000a2,c:010058,c:0300a2
-0708:0ce40000:0003:0031:1:0
-NICK JR
-p:Movistar+ (Hispasat),c:001b58,c:011b59,c:031b58
 0007:0ce40000:0007:0031:1:159
 BAJO DEMANDA
 p:Movistar+ (Hispasat),c:0000a3,c:0100fe,c:0300a3
@@ -231,7 +231,7 @@ p:Movistar+ (Hispasat),c:0000ab,c:01007c,c:0300ab
 NEOX
 p:Movistar+ (Hispasat),c:0000a8,c:010070,c:0300a8
 0078:0ce40000:0007:0031:1:158
-TAQUILLA
+ALQUILER
 p:Movistar+ (Hispasat),c:0000ae,c:010190,c:0300ae
 005d:0ce40000:0007:0031:1:0
 EUROSPORT 2
@@ -321,25 +321,25 @@ p:Movistar+ (Hispasat),c:000ffa,c:010ffb,c:030ffa
 TOROS TV
 p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
 007d:0ce40000:0006:0031:1:187
-TAQUILLA 5
+ALQUILER 5
 p:Movistar+ (Hispasat),c:0000a0,c:010050,c:020020,c:0300a0
 007e:0ce40000:0006:0031:1:188
-TAQUILLA 6
+ALQUILER 6
 p:Movistar+ (Hispasat),c:0000ab,c:01007c,c:020041,c:0300ab
 007f:0ce40000:0006:0031:1:189
-TAQUILLA 3
+ALQUILER 3
 p:Movistar+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
 0080:0ce40000:0006:0031:1:190
-TAQUILLA 4
+ALQUILER 4
 p:Movistar+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
 0083:0ce40000:0006:0031:1:191
-TAQUILLA X
+ALQUILER X
 p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:0300a3
 0084:0ce40000:0006:0031:1:192
-TAQUILLA XX
+ALQUILER XX
 p:Movistar+ (Hispasat),c:0000a4,c:010060,c:0300a4
 0085:0ce40000:0006:0031:1:193
-TAQ XXHARD
+ALQ XXHARD
 p:Movistar+ (Hispasat),c:0000a1,c:010054,c:0300a1
 0086:0ce40000:0006:0031:1:194
 MULTI-X
@@ -458,12 +458,6 @@ p:Movistar+ (Hispasat),c:0000a8,c:010070,c:0300a8
 0041:0ce40000:0005:0031:1:0
 MOVISTAR F1
 p:Movistar+ (Hispasat)
-0006:0ce40000:0008:0031:1:315
-MULTICINE
-p:Movistar+ (Hispasat),c:0000a5,c:010064,c:0300a5
-0028:0ce40000:0008:0031:1:317
-MULTICINE
-p:Movistar+ (Hispasat),c:0000a5,c:010064,c:0300a5
 0032:0ce40000:0008:0031:1:318
 MULTIDEPORTE
 p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
@@ -471,13 +465,13 @@ p:Movistar+ (Hispasat),c:0000ac,c:010080,c:0300ac
 NICKELODEON
 p:Movistar+ (Hispasat),c:001030,c:011031,c:031030
 0079:0ce40000:0008:0031:1:322
-TAQUILLA 1
+ALQUILER 1
 p:Movistar+ (Hispasat),c:0000a8,c:010070,c:020038,c:0300a8
 007a:0ce40000:0008:0031:1:323
-TAQUILLA 2
+ALQUILER 2
 p:Movistar+ (Hispasat),c:0000aa,c:010078,c:02003e,c:0300aa
 0087:0ce40000:0008:0031:1:326
-TAQUILLA XY
+ALQUILER XY
 p:Movistar+ (Hispasat),c:0000a0,c:010050,c:0300a0
 0055:0ce40000:0008:0031:1:0
 MEZZO
@@ -524,6 +518,9 @@ p:Movistar+ (Hispasat)
 0c85:0ce40000:0008:0031:1:0
 LALIGATVBAR1
 p:Movistar+ (Hispasat)
+0bc0:0ce40000:0008:0031:1:0
+NICK JR
+p:Movistar+ (Hispasat),c:0000b0,c:010062,c:0300b0
 0014:fed40000:0001:0031:1:335
 CALLE 13
 p:Movistar+ (Hispasat),c:0000a3,c:01005c,c:020029,c:0300a3
@@ -1199,18 +1196,18 @@ p:Nos
 0014:fed4acf6:0065:0000:1:0
 XTVL
 p:,c:0000d2,c:0100c8,c:0300d2
-01f5:fed40000:0069:0053:31:0
-Hispasat 4K
-p:
-01f6:fed40000:0069:0053:31:0
-RTP 4K
-p:
-01f7:fed40000:0069:0053:31:0
-SPORT TV 4K
-p:
-0001:0ce42cef:0001:0001:25:0
+01f5:fed40000:0069:0053:25:0
+Ultra HD 4K
+p:Meo,c:001801,c:011802,c:031801
+01f7:fed40000:0069:0053:25:0
+Sport TV 4K
+p:Meo,c:001811,c:011812,c:031811
+0001:fed42cef:0001:0001:25:0
 Bom
 p:BOM,c:000101,c:010102,c:0304e9
+0001:fed40000:03e8:03e9:25:0
+Hispasat 4K
+p:Hispasat,c:000020,c:010021,c:030020
 019e:eeee0000:03e8:22d4:25:0
 La 1 HD.
 p:RTVE
@@ -1326,5 +1323,5 @@ p:Mediapro
 PARAMOUNT CHANNEL
 p:PARAMOUNT CHANNEL
 end
-Editor:DreamSet 2.4.8 - http://www.dreamset-editor.com
+Editor:DreamSet 2.4.9 - http://www.dreamset-editor.com
 Author:Sorys-linux Box
