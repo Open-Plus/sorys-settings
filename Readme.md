@@ -1,4 +1,4 @@
----------    www.linux-box.es   ---------<br>
+---------   http://www.open-plus.es/   ---------<br>
 Tipos de listas de canales Sorys-Openplus:<br>
 <br>
 19e - Astra<br>
