@@ -6,7 +6,6 @@ Tipos de listas de canales Sorys-Openplus:<br>
 30w - Hispasat<br>
 19e.30w - Astra - Hispasat<br>
 19e.13e.30w - Astra - Hotbird - Hispasat<br>
-19e.13e.30w.25w.7w.26e Astra - Hotbird - Hispasat - Es'Hail 1 (25.5°W) - Nilesat 101/102 - Badr6 <br>
 motor - Todos los satélites<br>
 <br>
 Dentro de cada lista, hay los siguientes formatos (Excepto en 30w):<br>
