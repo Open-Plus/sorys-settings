@@ -13,8 +13,7 @@ Dentro de cada lista, hay los siguientes formatos (Excepto en 30w):<br>
 d - canales SD y HD<br>
 sd - Canales en resolución estandar<br>
 iplus - Canales con ordenación iplus<br>
-<br>
--------------------------------------------------<br>
+web - www.listassorys.com<br>
 <br>
 Types of settings Sorys-Openplus channels:<br>
 <br>
@@ -30,6 +29,7 @@ Within each list, there are the following formats (except 30w):<br>
 d - SD and HD channels<br>
 sd - Channels in standard resolution<br>
 iplus - Channels with iplus order<br>
+web - www.listassorys.com<br>
 <br>
 
 
