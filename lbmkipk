@@ -5,10 +5,10 @@
 PLUGINNAME="enigma2-plugin"
 SECTION="settings"
 ARCH="all"
-MAINTAINER="linux-box"
+MAINTAINER="openPlus"
 DESCRIPTION="Sorys Settings"
-SOURCE="http://www.linux-box.es"
-HOMEPAGE="http://www.linux-box.es"
+SOURCE="http://www.open-plus.es"
+HOMEPAGE="http://www.open-plus.es"
 
 VERSION=$(date +%Y%m%d)
 if [[ -n $2 ]]; then
