@@ -2,6 +2,7 @@
 Tipos de listas de canales Sorys-Openplus:<br>
 <br>
 19e - Astra<br>
+19e.13e - Astra - Hotbird<br>
 19e.comu - Astra instalaciones comunitarias<br>
 30w - Hispasat<br>
 19e.30w - Astra - Hispasat<br>
@@ -18,6 +19,7 @@ web - www.listassorys.com<br>
 Types of settings Sorys-Openplus channels:<br>
 <br>
 19e - Astra<br>
+19e.13e - Astra - Hotbird<br>
 19e.comu - Astra community instalation<br>
 30w - Hispasat<br>
 19e.30w - Astra - Hispasat<br>
